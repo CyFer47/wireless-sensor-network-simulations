@@ -129,22 +129,23 @@ This manifest lists every file and directory in the Agent 3 ML Workspace V2 uplo
 
 ## File Statistics
 
+
 ### Total Files Uploaded
-- **Documentation**: 12 files (.md)
+- **Documentation**: 11 files (.md)
 - **Scripts**: 5 files (.py)
 - **Results**: 4 files (.json, .csv)
 - **Demo**: 2 files (.py, .md)
 - **Configuration**: 1 file (requirements.txt)
 - **Manifest**: 1 file (.md)
 
-**Total: 25 files**
+**Total: 23 files**
 
 ### Size Breakdown
-- **Documentation**: ~50 KB
+- **Documentation**: ~40 KB
 - **Scripts**: ~40 KB (training + preprocessing + demo)
 - **Results**: ~30 KB (JSON metrics + CSV table)
 - **Requirements**: ~1 KB
-- **Total**: ~121 KB
+- **Total**: ~0.14 MB
 
 ### Excluded vs Included
 | Category | Included | Excluded | Reason |
