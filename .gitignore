@@ -1,0 +1,25 @@
+# Environment and runtime
+.env
+*.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.tar.gz
+*.zip
+*.7z
+*.bak
+node_modules/
+build/
+CMakeFiles/
+cmake-cache/
+local_outputs/
+outputs/
+raw_outputs/
+database_dumps/
+db_backups/
+*.fig
