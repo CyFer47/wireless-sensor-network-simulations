@@ -1,0 +1,12 @@
+Model,Target,Dataset_Rows,Train_Samples,Val_Samples,Test_Samples,Best_Algorithm,Train_MAE,Train_RMSE,Train_R2,Val_MAE,Val_RMSE,Val_R2,Test_MAE,Test_RMSE,Test_R2,Status
+A,traffic_recovery_delay_s,520,456,32,32,Decision Tree,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,USABLE
+B,final_agg_delivery_ratio,1148,1012,68,68,Decision Tree,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,USABLE
+B,final_consumed_j,1148,1012,68,68,Decision Tree,0.0157,0.0315,1.0000,245.4483,250.1194,0.1582,567.7934,578.9101,-1.9422,NOT_USABLE
+B,final_recovered_clusters,1148,1012,68,68,Decision Tree,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,USABLE
+C,active_healing_beats_H0,1150,1012,68,68,Decision Tree,0.8617,N/A,N/A,0.7647,N/A,N/A,0.7647,N/A,N/A,LIMITED
+Model,Split_Train,Split_Val,Split_Test,Classes,Class_0_Dist,Class_1_Dist,Features,Categorical_Features,Model_File_Path,Results_File_Path
+A,S1-S9,S10,S11,Regression,N/A,N/A,14,4,05_MODELS/model_a_recovery_time_best.joblib,06_RESULTS/MODEL_A_RESULTS.json
+B,S1-S9,S10,S11,Regression,N/A,N/A,21,7,05_MODELS/model_b_final-agg-delivery-ratio_best.joblib,06_RESULTS/MODEL_B_RESULTS.json
+B,S1-S9,S10,S11,Regression,N/A,N/A,21,7,05_MODELS/model_b_final-consumed-j_best.joblib,06_RESULTS/MODEL_B_RESULTS.json
+B,S1-S9,S10,S11,Regression,N/A,N/A,21,7,05_MODELS/model_b_final-recovered-clusters_best.joblib,06_RESULTS/MODEL_B_RESULTS.json
+C,S1-S9,S10,S11,Binary Classification,77.7%,22.3%,5,0,05_MODELS/model_c_pairwise_best.joblib,06_RESULTS/MODEL_C_RESULTS.json

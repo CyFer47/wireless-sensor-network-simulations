@@ -1,0 +1,46 @@
+{
+  "Linear Regression": {
+    "train_MAE": 1.0973607409218704,
+    "train_RMSE": 1.281908735625655,
+    "train_R2": 0.9020142190751731,
+    "val_MAE": 0.8315124469379096,
+    "val_RMSE": 0.8555139830333934,
+    "val_R2": 0.0,
+    "test_MAE": 4.9059701461139005,
+    "test_RMSE": 4.911396772210569,
+    "test_R2": 0.0
+  },
+  "Decision Tree": {
+    "train_MAE": 0.0,
+    "train_RMSE": 0.0,
+    "train_R2": 1.0,
+    "val_MAE": 0.0,
+    "val_RMSE": 0.0,
+    "val_R2": 1.0,
+    "test_MAE": 0.0,
+    "test_RMSE": 0.0,
+    "test_R2": 1.0
+  },
+  "Random Forest": {
+    "train_MAE": 0.0027192982456140237,
+    "train_RMSE": 0.015839103288458466,
+    "train_R2": 0.9999850407429158,
+    "val_MAE": 4.5525,
+    "val_RMSE": 4.552537753824783,
+    "val_R2": 0.0,
+    "test_MAE": 4.5525,
+    "test_RMSE": 4.552537753824783,
+    "test_R2": 0.0
+  },
+  "Gradient Boosting": {
+    "train_MAE": 5.402934256091363e-05,
+    "train_RMSE": 0.00010880993882015216,
+    "train_R2": 0.9999999992940304,
+    "val_MAE": 0.511977223778139,
+    "val_RMSE": 0.5119772237785668,
+    "val_R2": 0.0,
+    "test_MAE": 0.511977223778139,
+    "test_RMSE": 0.5119772237785668,
+    "test_R2": 0.0
+  }
+}

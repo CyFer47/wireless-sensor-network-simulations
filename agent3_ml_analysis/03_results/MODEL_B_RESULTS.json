@@ -1,0 +1,107 @@
+{
+  "final_agg_delivery_ratio": {
+    "Decision Tree": {
+      "train_MAE": 0.0,
+      "train_RMSE": 0.0,
+      "train_R2": 1.0,
+      "val_MAE": 0.0,
+      "val_RMSE": 0.0,
+      "val_R2": 1.0,
+      "test_MAE": 0.0,
+      "test_RMSE": 0.0,
+      "test_R2": 1.0
+    },
+    "Random Forest": {
+      "train_MAE": 0.0,
+      "train_RMSE": 0.0,
+      "train_R2": 1.0,
+      "val_MAE": 0.0,
+      "val_RMSE": 0.0,
+      "val_R2": 1.0,
+      "test_MAE": 0.0,
+      "test_RMSE": 0.0,
+      "test_R2": 1.0
+    },
+    "Gradient Boosting": {
+      "train_MAE": 0.0,
+      "train_RMSE": 0.0,
+      "train_R2": 1.0,
+      "val_MAE": 0.0,
+      "val_RMSE": 0.0,
+      "val_R2": 1.0,
+      "test_MAE": 0.0,
+      "test_RMSE": 0.0,
+      "test_R2": 1.0
+    }
+  },
+  "final_consumed_j": {
+    "Decision Tree": {
+      "train_MAE": 0.015713395281925086,
+      "train_RMSE": 0.03152756307486601,
+      "train_R2": 0.9999999908490831,
+      "val_MAE": 245.44828705882355,
+      "val_RMSE": 250.1194380596218,
+      "val_R2": 0.15823052654478997,
+      "test_MAE": 567.7934017647059,
+      "test_RMSE": 578.9100671509767,
+      "test_R2": -1.9421601914202875
+    },
+    "Random Forest": {
+      "train_MAE": 0.02573689670118297,
+      "train_RMSE": 0.07483277348785267,
+      "train_R2": 0.999999948445392,
+      "val_MAE": 415.40540202058827,
+      "val_RMSE": 424.63402492337485,
+      "val_R2": -1.426207070301622,
+      "test_MAE": 737.7505167264707,
+      "test_RMSE": 753.4298071844931,
+      "test_R2": -3.9834454261449963
+    },
+    "Gradient Boosting": {
+      "train_MAE": 0.054081377365631934,
+      "train_RMSE": 0.08333716164823515,
+      "train_R2": 0.9999999360616807,
+      "val_MAE": 559.5530824420675,
+      "val_RMSE": 570.3443832080367,
+      "val_R2": -3.3769604406187526,
+      "test_MAE": 881.8981971479499,
+      "test_RMSE": 899.150574284099,
+      "test_R2": -6.097558211381233
+    }
+  },
+  "final_recovered_clusters": {
+    "Decision Tree": {
+      "train_MAE": 0.0,
+      "train_RMSE": 0.0,
+      "train_R2": 1.0,
+      "val_MAE": 0.0,
+      "val_RMSE": 0.0,
+      "val_R2": 1.0,
+      "test_MAE": 0.0,
+      "test_RMSE": 0.0,
+      "test_R2": 1.0
+    },
+    "Random Forest": {
+      "train_MAE": 0.0,
+      "train_RMSE": 0.0,
+      "train_R2": 1.0,
+      "val_MAE": 0.0,
+      "val_RMSE": 0.0,
+      "val_R2": 1.0,
+      "test_MAE": 0.0,
+      "test_RMSE": 0.0,
+      "test_R2": 1.0
+    },
+    "Gradient Boosting": {
+      "train_MAE": 1.315102334897231e-05,
+      "train_RMSE": 1.3215702345155696e-05,
+      "train_R2": 0.9999999992944921,
+      "val_MAE": 1.320350402742682e-05,
+      "val_RMSE": 1.326833632034679e-05,
+      "val_R2": 0.9999999992933599,
+      "test_MAE": 1.320350402742682e-05,
+      "test_RMSE": 1.326833632034679e-05,
+      "test_R2": 0.9999999992933599
+    }
+  }
+}
