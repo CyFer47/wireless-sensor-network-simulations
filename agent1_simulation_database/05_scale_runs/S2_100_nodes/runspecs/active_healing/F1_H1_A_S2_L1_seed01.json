@@ -1,0 +1,50 @@
+{
+  "schema_version": "runspec_v1",
+  "run_spec_id": "F1_H1_A_S2_L1_seed01",
+  "description": "M7 production V3 F1/H1 A S2/L1",
+  "phase": "phase1",
+  "owner": "vmware-sim",
+  "notes": "M7 production batch",
+  "architecture": "A",
+  "runnable": true,
+  "variant": "V3",
+  "failure_family": "F1",
+  "healing_id": "H1",
+  "load": "L1",
+  "scale": "S2",
+  "seed": 1,
+  "topology": {
+    "node_count": 100,
+    "cluster_count": 6
+  },
+  "timing": {
+    "sim_time_s": 60.0,
+    "traffic_interval_s": 3.0,
+    "aggregation_interval_s": 5.0,
+    "dashboard_interval_s": 1.0,
+    "failure_time_s": 18.0,
+    "recovery_delay_s": 2.0
+  },
+  "failure_injection": {
+    "enabled": true,
+    "target": "cluster_ch"
+  },
+  "recovery": {
+    "enabled": true,
+    "profile": "m7_profile"
+  },
+  "execution": {
+    "sim_source": "test-ns3/m3-scenario-library.cc",
+    "ns3_binary_hint": "/home/cyfer/ns-allinone-3.42/ns-3.42",
+    "enable_run_export": true,
+    "export_root_dir": "outputs"
+  },
+  "provenance_tags": {
+    "mix_alias": "F1_H1_A_S2_L1_seed01"
+  },
+  "reserved_architecture_b": {
+    "controller_family": "BSBSSP",
+    "controller_profile": "reserved",
+    "planned_status": "planned"
+  }
+}

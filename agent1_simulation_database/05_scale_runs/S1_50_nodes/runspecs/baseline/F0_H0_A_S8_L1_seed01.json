@@ -1,0 +1,51 @@
+{
+  "schema_version": "runspec_v1",
+  "run_spec_id": "F0_H0_A_S8_L1_seed01",
+  "description": "A-only baseline normal run at S8/L1",
+  "phase": "phase1",
+  "owner": "vmware-sim",
+  "notes": "Phase 1 dry-run compatibility spec for S8",
+  "architecture": "A",
+  "runnable": true,
+  "variant": "V1",
+  "failure_family": "F0",
+  "healing_id": "H0",
+  "load": "L1",
+  "scale": "S8",
+  "seed": 1,
+  "topology": {
+    "node_count": 3500,
+    "cluster_count": 5
+  },
+  "timing": {
+    "sim_time_s": 230.0,
+    "traffic_interval_s": 3.0,
+    "aggregation_interval_s": 4.0,
+    "dashboard_interval_s": 1.0,
+    "failure_time_s": null,
+    "recovery_delay_s": null
+  },
+  "failure_injection": {
+    "enabled": false,
+    "target": "none"
+  },
+  "recovery": {
+    "enabled": false,
+    "profile": "none"
+  },
+  "execution": {
+    "sim_source": "test-ns3/m3-scenario-library.cc",
+    "ns3_binary_hint": "<VM_HOME_PATH>/ns-allinone-3.42/ns-3.42",
+    "enable_run_export": true,
+    "export_root_dir": "outputs"
+  },
+  "provenance_tags": {
+    "mix_alias": "A_S8_V1_L1_seed01",
+    "baseline_reference_run_id": "4"
+  },
+  "reserved_architecture_b": {
+    "controller_family": "BSBSSP",
+    "controller_profile": "reserved",
+    "planned_status": "planned"
+  }
+}

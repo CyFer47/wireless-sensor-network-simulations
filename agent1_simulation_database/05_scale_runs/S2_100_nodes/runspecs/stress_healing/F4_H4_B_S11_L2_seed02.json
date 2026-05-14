@@ -1,0 +1,44 @@
+{
+  "architecture": "B",
+  "description": "Final Scale5000 Combined S11 B F4/H4 L2 seed02",
+  "execution": {
+    "enable_run_export": true,
+    "export_root_dir": "/home/cyfer/FYP/github_packaging/wsn-self-healing-bsbssp-research/agent1_simulation_platform/outputs",
+    "ns3_root_hint": "/home/cyfer/ns-allinone-3.42/ns-3.42",
+    "sim_source": "ns3"
+  },
+  "failure_family": "F4",
+  "failure_injection": {
+    "enabled": true
+  },
+  "healing_id": "H4",
+  "load": "L2",
+  "phase": "phase1",
+  "recovery": {
+    "enabled": true,
+    "profile": "m7_profile"
+  },
+  "run_spec_id": "F4_H4_B_S11_L2_seed02",
+  "runnable": true,
+  "scale": "S11",
+  "schema_version": "runspec_v1",
+  "seed": 2,
+  "timing": {
+    "aggregation_interval_s": 30.0,
+    "dashboard_interval_s": 10.0,
+    "failure_time_s": 10.0,
+    "recovery_delay_s": 12.0,
+    "sim_time_s": 300.0,
+    "traffic_interval_s": 1.0
+  },
+  "topology": {
+    "area": [
+      1150,
+      1150
+    ],
+    "bs": 6,
+    "cluster_count": 200,
+    "node_count": 5000
+  },
+  "variant": "V3"
+}

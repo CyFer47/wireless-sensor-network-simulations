@@ -1,0 +1,6 @@
+model,target,B1_test_metric,safe_test_metric,performance_drop,interpretation
+Model A,traffic_recovery_delay_s,1.0000,1.0000,0.0000,No significant drop - dataset may be deterministic OR outcome metrics are redundant for recovery prediction
+Model B (agg_delivery_ratio),final_agg_delivery_ratio,1.0000,1.0000,0.0000,No drop - dataset is deterministic across features
+Model B (consumed_j),final_consumed_j,-1.9407,-1.9995,0.0588,MODERATE DROP - outcome features provided significant predictive value
+Model B (recovered_clusters),final_recovered_clusters,1.0000,1.0000,0.0000,No drop - dataset is deterministic across features
+Model C,active_healing_beats_H0,1.0000,1.0000,0.0000,Perfect score maintained - binary classification is deterministic in dataset

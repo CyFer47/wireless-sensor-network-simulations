@@ -1,0 +1,30 @@
+{
+  "area": {
+    "height_m": 100.0,
+    "width_m": 100.0
+  },
+  "counts": {
+    "bs_count": 1,
+    "ch_count": 3,
+    "node_count": 50
+  },
+  "deterministic_signature_sha256": "820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe",
+  "files": {
+    "ch_bs": "ch_bs.csv",
+    "node_cluster_map": "node_cluster_map.csv",
+    "nodes": "nodes.csv"
+  },
+  "generated_at_utc": "2026-04-14T10:40:23Z",
+  "generator": "tools/generate_map.py",
+  "map_id": "map_S1_seed02",
+  "map_schema_version": "m2_map_v1",
+  "rules": {
+    "boundary_margin_m": 2.0,
+    "bs_placement": "deterministic_geometry_anchors",
+    "ch_selection": "deterministic_farthest_point_sampling",
+    "min_spacing_m": 5.0,
+    "node_cluster_assignment": "nearest_ch_tie_lowest_cluster_id"
+  },
+  "scale_id": "S1",
+  "seed": 2
+}

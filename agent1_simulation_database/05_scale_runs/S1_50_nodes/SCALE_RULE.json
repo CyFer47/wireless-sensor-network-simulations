@@ -1,0 +1,12 @@
+{
+  "scale_id": "S1",
+  "node_count": 50,
+  "status": "planning-only; populated from existing validated materials where available",
+  "expected_subfolders": [
+    "maps",
+    "runspecs",
+    "simulations_50_to_5000",
+    "expected_outputs",
+    "local_outputs"
+  ]
+}

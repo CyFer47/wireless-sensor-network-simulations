@@ -1,0 +1,44 @@
+{
+  "architecture": "A",
+  "description": "Final Scale5000 Combined S10 A F1/H0 L1 seed01",
+  "execution": {
+    "enable_run_export": true,
+    "export_root_dir": "/home/cyfer/FYP/github_packaging/wsn-self-healing-bsbssp-research/agent1_simulation_platform/outputs",
+    "ns3_root_hint": "/home/cyfer/ns-allinone-3.42/ns-3.42",
+    "sim_source": "ns3"
+  },
+  "failure_family": "F1",
+  "failure_injection": {
+    "enabled": true
+  },
+  "healing_id": "H0",
+  "load": "L1",
+  "phase": "phase1",
+  "recovery": {
+    "enabled": false,
+    "profile": "none"
+  },
+  "run_spec_id": "F1_H0_A_S10_L1_seed01",
+  "runnable": true,
+  "scale": "S10",
+  "schema_version": "runspec_v1",
+  "seed": 1,
+  "timing": {
+    "aggregation_interval_s": 30.0,
+    "dashboard_interval_s": 10.0,
+    "failure_time_s": 10.0,
+    "recovery_delay_s": null,
+    "sim_time_s": 270.0,
+    "traffic_interval_s": 1.0
+  },
+  "topology": {
+    "area": [
+      1080,
+      1080
+    ],
+    "bs": 6,
+    "cluster_count": 180,
+    "node_count": 4500
+  },
+  "variant": "V2"
+}

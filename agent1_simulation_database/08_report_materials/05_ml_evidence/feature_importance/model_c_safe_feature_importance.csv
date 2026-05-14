@@ -1,0 +1,10 @@
+feature,importance,rank
+consumed_j,0.0,5
+low_nodes,0.0,5
+recovered_clusters,0.0,5
+agg_delivery_ratio,0.0,5
+recovery_delay_s,0.0,5
+h0_score,0.0,5
+healing_id_H2,0.0,5
+healing_id_H3,0.0,5
+healing_id_H4,0.0,5

@@ -1,0 +1,3 @@
+scale,runs,avg_delivery_ratio,avg_packet_loss,avg_consumed_energy,avg_network_lifetime
+S12,48,1.0,0.0,133.6559558333333333,600.0000000000000000
+S13,48,1.0,0.0,270.2814025000000000,600.0000000000000000

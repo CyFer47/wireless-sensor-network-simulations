@@ -1,0 +1,51 @@
+{
+  "schema_version": "runspec_v1",
+  "run_spec_id": "F1_H1_B_S1_L1_seed01",
+  "description": "B branch F1 failure with H1 healing and BSBSSP reroute at S1/L1",
+  "phase": "phase1",
+  "owner": "vmware-sim",
+  "notes": "M4 architecture-branching comparison pair for F1/H1",
+  "architecture": "B",
+  "runnable": true,
+  "variant": "V3",
+  "failure_family": "F1",
+  "healing_id": "H1",
+  "load": "L1",
+  "scale": "S1",
+  "seed": 1,
+  "topology": {
+    "node_count": 50,
+    "cluster_count": 5
+  },
+  "timing": {
+    "sim_time_s": 30.0,
+    "traffic_interval_s": 3.0,
+    "aggregation_interval_s": 6.0,
+    "dashboard_interval_s": 1.0,
+    "failure_time_s": 13.0,
+    "recovery_delay_s": 1.0
+  },
+  "failure_injection": {
+    "enabled": true,
+    "target": "cluster_ch"
+  },
+  "recovery": {
+    "enabled": true,
+    "profile": "h1_ch_rotation"
+  },
+  "execution": {
+    "sim_source": "test-ns3/m3-scenario-library.cc",
+    "ns3_binary_hint": "<VM_HOME_PATH>/ns-allinone-3.42/ns-3.42",
+    "enable_run_export": true,
+    "export_root_dir": "outputs"
+  },
+  "provenance_tags": {
+    "mix_alias": "B_S1_F1_H1_V3_L1_seed01",
+    "baseline_reference_run_id": "4"
+  },
+  "reserved_architecture_b": {
+    "controller_family": "BSBSSP",
+    "controller_profile": "bsbssp_phase1",
+    "planned_status": "active"
+  }
+}

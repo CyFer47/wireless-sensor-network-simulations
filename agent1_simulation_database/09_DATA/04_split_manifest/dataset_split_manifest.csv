@@ -1,0 +1,1149 @@
+run_id,scenario_key,scale,seed,map_signature,split,split_reason
+74,S1|A|F0|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+75,S1|B|F0|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+76,S1|B|F0|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+77,S1|A|F0|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+78,S1|A|F0|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+79,S1|B|F0|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+80,S1|B|F0|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+81,S1|A|F0|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+82,S1|A|F0|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+83,S1|B|F0|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+84,S1|B|F0|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+85,S1|A|F0|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+86,S1|A|F0|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+87,S1|B|F0|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+88,S1|B|F0|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+89,S2|A|F0|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+90,S2|A|F0|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+91,S2|B|F0|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+92,S2|B|F0|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+93,S2|A|F0|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+94,S2|A|F0|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+95,S2|B|F0|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+96,S2|B|F0|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+97,S2|A|F0|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+98,S2|A|F0|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+99,S2|B|F0|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+100,S2|B|F0|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+101,S2|A|F0|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+102,S2|A|F0|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+103,S2|B|F0|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+104,S2|B|F0|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+105,S3|A|F0|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+106,S3|A|F0|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+107,S3|B|F0|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+108,S3|B|F0|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+109,S3|A|F0|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+110,S3|A|F0|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+111,S3|B|F0|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+112,S3|B|F0|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+113,S3|A|F0|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+114,S3|A|F0|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+115,S3|B|F0|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+116,S3|B|F0|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+117,S3|A|F0|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+118,S3|A|F0|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+119,S3|B|F0|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+120,S3|B|F0|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+121,S4|A|F0|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+122,S4|A|F0|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+123,S4|B|F0|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+124,S4|B|F0|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+125,S4|A|F0|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+126,S4|A|F0|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+127,S4|B|F0|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+128,S4|B|F0|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+129,S4|A|F0|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+130,S4|A|F0|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+131,S4|B|F0|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+132,S4|B|F0|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+133,S4|A|F0|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+134,S4|A|F0|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+135,S4|B|F0|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+136,S4|B|F0|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+137,S5|A|F0|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+138,S5|A|F0|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+139,S5|B|F0|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+140,S5|B|F0|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+141,S5|A|F0|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+142,S5|A|F0|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+143,S5|B|F0|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+144,S5|B|F0|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+145,S5|A|F0|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+146,S5|A|F0|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+147,S5|B|F0|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+148,S5|B|F0|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+149,S5|A|F0|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+150,S5|A|F0|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+151,S5|B|F0|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+152,S5|B|F0|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+153,S6|A|F0|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+154,S6|A|F0|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+155,S6|B|F0|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+156,S6|B|F0|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+157,S6|A|F0|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+158,S6|A|F0|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+159,S6|B|F0|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+160,S6|B|F0|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+161,S6|A|F0|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+162,S6|A|F0|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+163,S6|B|F0|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+164,S6|B|F0|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+165,S6|A|F0|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+166,S6|A|F0|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+167,S6|B|F0|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+168,S6|B|F0|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+169,S1|A|F1|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+171,S1|A|F2|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+172,S1|A|F2|H2|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+173,S1|A|F3|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+174,S1|A|F3|H3|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+175,S1|A|F4|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+176,S1|A|F4|H4|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+177,S1|A|F1|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+178,S1|A|F1|H1|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+179,S1|A|F2|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+180,S1|A|F2|H2|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+181,S1|A|F3|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+182,S1|A|F3|H3|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+183,S1|A|F4|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+184,S1|A|F4|H4|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+185,S1|B|F1|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+186,S1|B|F1|H1|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+187,S1|B|F2|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+188,S1|B|F2|H2|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+189,S1|B|F3|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+190,S1|B|F3|H3|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+191,S1|B|F4|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+192,S1|B|F4|H4|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+193,S1|B|F1|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+194,S1|B|F1|H1|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+195,S1|B|F2|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+196,S1|B|F2|H2|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+197,S1|B|F3|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+198,S1|B|F3|H3|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+199,S1|B|F4|H0|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+200,S1|B|F4|H4|L2|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+201,S1|A|F1|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+202,S1|A|F1|H1|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+203,S1|A|F2|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+204,S1|A|F2|H2|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+205,S1|A|F3|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+206,S1|A|F3|H3|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+207,S1|A|F4|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+208,S1|A|F4|H4|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+209,S1|A|F1|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+210,S1|A|F1|H1|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+211,S1|A|F2|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+212,S1|A|F2|H2|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+213,S1|A|F3|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+214,S1|A|F3|H3|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+215,S1|A|F4|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+216,S1|A|F4|H4|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+217,S1|B|F1|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+218,S1|B|F1|H1|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+219,S1|B|F2|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+220,S1|B|F2|H2|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+221,S1|B|F3|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+222,S1|B|F3|H3|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+223,S1|B|F4|H0|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+224,S1|B|F4|H4|L1|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+225,S1|B|F1|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+226,S1|B|F1|H1|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+227,S1|B|F2|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+228,S1|B|F2|H2|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+229,S1|B|F3|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+230,S1|B|F3|H3|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+231,S1|B|F4|H0|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+232,S1|B|F4|H4|L2|2,S1,2,820bde6d7cf1367ae2e17ba8155aebbd18f4603de0ffb5788da4e5d752201ffe,train,S1-S9 train split; lower-scale training set
+233,S1|A|F1|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+234,S1|A|F1|H1|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+235,S1|A|F2|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+236,S1|A|F2|H2|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+237,S1|A|F3|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+238,S1|A|F3|H3|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+239,S1|A|F4|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+240,S1|A|F4|H4|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+241,S1|A|F1|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+242,S1|A|F1|H1|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+243,S1|A|F2|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+244,S1|A|F2|H2|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+245,S1|A|F3|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+246,S1|A|F3|H3|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+247,S1|A|F4|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+248,S1|A|F4|H4|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+249,S1|B|F1|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+250,S1|B|F1|H1|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+251,S1|B|F2|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+252,S1|B|F2|H2|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+253,S1|B|F3|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+254,S1|B|F3|H3|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+255,S1|B|F4|H0|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+256,S1|B|F4|H4|L1|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+257,S1|B|F1|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+258,S1|B|F1|H1|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+259,S1|B|F2|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+260,S1|B|F2|H2|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+261,S1|B|F3|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+262,S1|B|F3|H3|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+263,S1|B|F4|H0|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+264,S1|B|F4|H4|L2|3,S1,3,ba2838a4ed006e12afeb225b2d92e1e1d0d60559d3886328b9bafdf26d70da9c,train,S1-S9 train split; lower-scale training set
+265,S1|A|F1|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+266,S1|A|F1|H1|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+267,S1|A|F2|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+268,S1|A|F2|H2|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+269,S1|A|F3|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+270,S1|A|F3|H3|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+271,S1|A|F4|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+272,S1|A|F4|H4|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+273,S1|A|F1|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+274,S1|A|F1|H1|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+275,S1|A|F2|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+276,S1|A|F2|H2|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+277,S1|A|F3|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+278,S1|A|F3|H3|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+279,S1|A|F4|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+280,S1|A|F4|H4|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+281,S1|B|F1|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+282,S1|B|F1|H1|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+283,S1|B|F2|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+284,S1|B|F2|H2|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+285,S1|B|F3|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+286,S1|B|F3|H3|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+287,S1|B|F4|H0|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+288,S1|B|F4|H4|L1|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+289,S1|B|F1|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+290,S1|B|F1|H1|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+291,S1|B|F2|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+292,S1|B|F2|H2|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+293,S1|B|F3|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+294,S1|B|F3|H3|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+295,S1|B|F4|H0|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+296,S1|B|F4|H4|L2|4,S1,4,b82af73d93663850138fc038f2fc3034e04f4c85c4033149dc0eb39056f8ada9,train,S1-S9 train split; lower-scale training set
+297,S2|A|F1|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+298,S2|A|F1|H1|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+299,S2|A|F2|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+300,S2|A|F2|H2|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+301,S2|A|F3|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+302,S2|A|F3|H3|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+303,S2|A|F4|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+304,S2|A|F4|H4|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+305,S2|A|F1|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+306,S2|A|F1|H1|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+307,S2|A|F2|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+308,S2|A|F2|H2|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+309,S2|A|F3|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+310,S2|A|F3|H3|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+311,S2|A|F4|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+312,S2|A|F4|H4|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+313,S2|B|F1|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+314,S2|B|F1|H1|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+315,S2|B|F2|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+316,S2|B|F2|H2|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+317,S2|B|F3|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+318,S2|B|F3|H3|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+319,S2|B|F4|H0|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+320,S2|B|F4|H4|L1|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+321,S2|B|F1|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+322,S2|B|F1|H1|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+323,S2|B|F2|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+324,S2|B|F2|H2|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+325,S2|B|F3|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+326,S2|B|F3|H3|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+327,S2|B|F4|H0|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+328,S2|B|F4|H4|L2|1,S2,1,8e786060cee1bb7141ae24780ea6aa41fa6288956918e1e2203bc71df05a06b4,train,S1-S9 train split; lower-scale training set
+329,S2|A|F1|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+330,S2|A|F1|H1|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+331,S2|A|F2|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+332,S2|A|F2|H2|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+333,S2|A|F3|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+334,S2|A|F3|H3|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+335,S2|A|F4|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+336,S2|A|F4|H4|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+337,S2|A|F1|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+338,S2|A|F1|H1|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+339,S2|A|F2|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+340,S2|A|F2|H2|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+341,S2|A|F3|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+342,S2|A|F3|H3|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+343,S2|A|F4|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+344,S2|A|F4|H4|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+345,S2|B|F1|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+346,S2|B|F1|H1|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+347,S2|B|F2|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+348,S2|B|F2|H2|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+349,S2|B|F3|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+350,S2|B|F3|H3|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+351,S2|B|F4|H0|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+352,S2|B|F4|H4|L1|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+353,S2|B|F1|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+354,S2|B|F1|H1|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+355,S2|B|F2|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+356,S2|B|F2|H2|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+357,S2|B|F3|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+358,S2|B|F3|H3|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+359,S2|B|F4|H0|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+360,S2|B|F4|H4|L2|2,S2,2,cb9334ae318a9af68f9f84f9493b1e29f9efd42c03f8c838672956a3f3cf7698,train,S1-S9 train split; lower-scale training set
+361,S2|A|F1|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+362,S2|A|F1|H1|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+363,S2|A|F2|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+364,S2|A|F2|H2|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+365,S2|A|F3|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+366,S2|A|F3|H3|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+367,S2|A|F4|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+368,S2|A|F4|H4|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+369,S2|A|F1|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+370,S2|A|F1|H1|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+371,S2|A|F2|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+372,S2|A|F2|H2|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+373,S2|A|F3|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+374,S2|A|F3|H3|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+375,S2|A|F4|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+376,S2|A|F4|H4|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+377,S2|B|F1|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+378,S2|B|F1|H1|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+379,S2|B|F2|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+380,S2|B|F2|H2|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+381,S2|B|F3|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+382,S2|B|F3|H3|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+383,S2|B|F4|H0|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+384,S2|B|F4|H4|L1|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+385,S2|B|F1|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+386,S2|B|F1|H1|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+387,S2|B|F2|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+388,S2|B|F2|H2|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+389,S2|B|F3|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+390,S2|B|F3|H3|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+391,S2|B|F4|H0|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+392,S2|B|F4|H4|L2|3,S2,3,6d22ff8ca7e48c0f6c9c3900c3312a570cb43d72540a9bbb4192120417301366,train,S1-S9 train split; lower-scale training set
+393,S2|A|F1|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+394,S2|A|F1|H1|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+395,S2|A|F2|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+396,S2|A|F2|H2|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+397,S2|A|F3|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+398,S2|A|F3|H3|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+399,S2|A|F4|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+400,S2|A|F4|H4|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+401,S2|A|F1|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+402,S2|A|F1|H1|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+403,S2|A|F2|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+404,S2|A|F2|H2|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+405,S2|A|F3|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+406,S2|A|F3|H3|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+407,S2|A|F4|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+408,S2|A|F4|H4|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+409,S2|B|F1|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+410,S2|B|F1|H1|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+411,S2|B|F2|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+412,S2|B|F2|H2|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+413,S2|B|F3|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+414,S2|B|F3|H3|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+415,S2|B|F4|H0|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+416,S2|B|F4|H4|L1|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+417,S2|B|F1|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+418,S2|B|F1|H1|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+419,S2|B|F2|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+420,S2|B|F2|H2|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+421,S2|B|F3|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+422,S2|B|F3|H3|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+423,S2|B|F4|H0|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+424,S2|B|F4|H4|L2|4,S2,4,813ffb8b5d176d4ea11b5e9acdc992f4050e1d8fc193d8c576e16d85593e8443,train,S1-S9 train split; lower-scale training set
+425,S3|A|F1|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+426,S3|A|F1|H1|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+427,S3|A|F2|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+428,S3|A|F2|H2|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+429,S3|A|F3|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+430,S3|A|F3|H3|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+431,S3|A|F4|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+432,S3|A|F4|H4|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+433,S3|A|F1|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+434,S3|A|F1|H1|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+435,S3|A|F2|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+436,S3|A|F2|H2|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+437,S3|A|F3|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+438,S3|A|F3|H3|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+439,S3|A|F4|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+440,S3|A|F4|H4|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+441,S3|B|F1|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+442,S3|B|F1|H1|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+443,S3|B|F2|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+444,S3|B|F2|H2|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+445,S3|B|F3|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+446,S3|B|F3|H3|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+447,S3|B|F4|H0|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+448,S3|B|F4|H4|L1|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+449,S3|B|F1|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+450,S3|B|F1|H1|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+451,S3|B|F2|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+452,S3|B|F2|H2|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+453,S3|B|F3|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+454,S3|B|F3|H3|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+455,S3|B|F4|H0|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+456,S3|B|F4|H4|L2|1,S3,1,301fb37c77c6691aa16a90e8fe244be76835fa4abccbc0210460e769ce921311,train,S1-S9 train split; lower-scale training set
+457,S3|A|F1|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+458,S3|A|F1|H1|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+459,S3|A|F2|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+460,S3|A|F2|H2|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+461,S3|A|F3|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+462,S3|A|F3|H3|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+463,S3|A|F4|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+464,S3|A|F4|H4|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+465,S3|A|F1|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+466,S3|A|F1|H1|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+467,S3|A|F2|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+468,S3|A|F2|H2|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+469,S3|A|F3|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+470,S3|A|F3|H3|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+471,S3|A|F4|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+472,S3|A|F4|H4|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+473,S3|B|F1|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+474,S3|B|F1|H1|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+475,S3|B|F2|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+476,S3|B|F2|H2|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+477,S3|B|F3|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+478,S3|B|F3|H3|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+479,S3|B|F4|H0|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+480,S3|B|F4|H4|L1|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+481,S3|B|F1|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+482,S3|B|F1|H1|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+483,S3|B|F2|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+484,S3|B|F2|H2|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+485,S3|B|F3|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+486,S3|B|F3|H3|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+487,S3|B|F4|H0|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+488,S3|B|F4|H4|L2|2,S3,2,0d31669092a33d8232e3b1d06652ce8f2ac19c4fbfeb0e5f93b508ff235b0f8f,train,S1-S9 train split; lower-scale training set
+489,S3|A|F1|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+490,S3|A|F1|H1|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+491,S3|A|F2|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+492,S3|A|F2|H2|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+493,S3|A|F3|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+494,S3|A|F3|H3|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+495,S3|A|F4|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+496,S3|A|F4|H4|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+497,S3|A|F1|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+498,S3|A|F1|H1|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+499,S3|A|F2|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+500,S3|A|F2|H2|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+501,S3|A|F3|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+502,S3|A|F3|H3|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+503,S3|A|F4|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+504,S3|A|F4|H4|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+505,S3|B|F1|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+506,S3|B|F1|H1|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+507,S3|B|F2|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+508,S3|B|F2|H2|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+509,S3|B|F3|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+510,S3|B|F3|H3|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+511,S3|B|F4|H0|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+512,S3|B|F4|H4|L1|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+513,S3|B|F1|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+514,S3|B|F1|H1|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+515,S3|B|F2|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+516,S3|B|F2|H2|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+517,S3|B|F3|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+518,S3|B|F3|H3|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+519,S3|B|F4|H0|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+520,S3|B|F4|H4|L2|3,S3,3,c6307b01c04705d46e9220227c3b8c7d27c1f0f911d20617206de4662681ea5a,train,S1-S9 train split; lower-scale training set
+521,S3|A|F1|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+522,S3|A|F1|H1|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+523,S3|A|F2|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+524,S3|A|F2|H2|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+525,S3|A|F3|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+526,S3|A|F3|H3|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+527,S3|A|F4|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+528,S3|A|F4|H4|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+529,S3|A|F1|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+530,S3|A|F1|H1|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+531,S3|A|F2|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+532,S3|A|F2|H2|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+533,S3|A|F3|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+534,S3|A|F3|H3|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+535,S3|A|F4|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+536,S3|A|F4|H4|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+537,S3|B|F1|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+538,S3|B|F1|H1|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+539,S3|B|F2|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+540,S3|B|F2|H2|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+541,S3|B|F3|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+542,S3|B|F3|H3|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+543,S3|B|F4|H0|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+544,S3|B|F4|H4|L1|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+545,S3|B|F1|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+546,S3|B|F1|H1|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+547,S3|B|F2|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+548,S3|B|F2|H2|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+549,S3|B|F3|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+550,S3|B|F3|H3|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+551,S3|B|F4|H0|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+552,S3|B|F4|H4|L2|4,S3,4,b258cc09b6128f27fa0ebfff222e0807b0cc1100bfc1187ee0ef7251702b5c14,train,S1-S9 train split; lower-scale training set
+553,S4|A|F1|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+554,S4|A|F1|H1|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+555,S4|A|F2|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+556,S4|A|F2|H2|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+557,S4|A|F3|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+558,S4|A|F3|H3|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+559,S4|A|F4|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+560,S4|A|F4|H4|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+561,S4|A|F1|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+562,S4|A|F1|H1|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+563,S4|A|F2|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+564,S4|A|F2|H2|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+565,S4|A|F3|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+566,S4|A|F3|H3|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+567,S4|A|F4|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+568,S4|A|F4|H4|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+569,S4|B|F1|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+570,S4|B|F1|H1|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+571,S4|B|F2|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+572,S4|B|F2|H2|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+573,S4|B|F3|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+574,S4|B|F3|H3|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+575,S4|B|F4|H0|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+576,S4|B|F4|H4|L1|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+577,S4|B|F1|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+578,S4|B|F1|H1|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+579,S4|B|F2|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+580,S4|B|F2|H2|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+581,S4|B|F3|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+582,S4|B|F3|H3|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+583,S4|B|F4|H0|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+584,S4|B|F4|H4|L2|1,S4,1,423938e85954e728adb69c6ce0e27efb0ac53c4050f8c5fff75a318054de0927,train,S1-S9 train split; lower-scale training set
+585,S4|A|F1|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+586,S4|A|F1|H1|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+587,S4|A|F2|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+588,S4|A|F2|H2|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+589,S4|A|F3|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+590,S4|A|F3|H3|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+591,S4|A|F4|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+592,S4|A|F4|H4|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+593,S4|A|F1|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+594,S4|A|F1|H1|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+595,S4|A|F2|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+596,S4|A|F2|H2|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+597,S4|A|F3|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+598,S4|A|F3|H3|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+599,S4|A|F4|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+600,S4|A|F4|H4|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+601,S4|B|F1|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+602,S4|B|F1|H1|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+603,S4|B|F2|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+604,S4|B|F2|H2|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+605,S4|B|F3|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+606,S4|B|F3|H3|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+607,S4|B|F4|H0|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+608,S4|B|F4|H4|L1|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+609,S4|B|F1|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+610,S4|B|F1|H1|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+611,S4|B|F2|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+612,S4|B|F2|H2|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+613,S4|B|F3|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+614,S4|B|F3|H3|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+615,S4|B|F4|H0|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+616,S4|B|F4|H4|L2|2,S4,2,78ce56e350fb15390afab4d62aa50014431b8ac64fc9c9bb6fcb11491161c9e5,train,S1-S9 train split; lower-scale training set
+617,S4|A|F1|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+618,S4|A|F1|H1|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+619,S4|A|F2|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+620,S4|A|F2|H2|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+621,S4|A|F3|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+622,S4|A|F3|H3|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+623,S4|A|F4|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+624,S4|A|F4|H4|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+625,S4|A|F1|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+626,S4|A|F1|H1|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+627,S4|A|F2|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+628,S4|A|F2|H2|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+629,S4|A|F3|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+630,S4|A|F3|H3|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+631,S4|A|F4|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+632,S4|A|F4|H4|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+633,S4|B|F1|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+634,S4|B|F1|H1|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+635,S4|B|F2|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+636,S4|B|F2|H2|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+637,S4|B|F3|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+638,S4|B|F3|H3|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+639,S4|B|F4|H0|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+640,S4|B|F4|H4|L1|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+641,S4|B|F1|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+642,S4|B|F1|H1|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+643,S4|B|F2|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+644,S4|B|F2|H2|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+645,S4|B|F3|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+646,S4|B|F3|H3|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+647,S4|B|F4|H0|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+648,S4|B|F4|H4|L2|3,S4,3,932b032993d949d3d50d4721e54e068dc8ec0948cf3e53f57cc976107fb3cad0,train,S1-S9 train split; lower-scale training set
+649,S4|A|F1|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+650,S4|A|F1|H1|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+651,S4|A|F2|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+652,S4|A|F2|H2|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+653,S4|A|F3|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+654,S4|A|F3|H3|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+655,S4|A|F4|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+656,S4|A|F4|H4|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+657,S4|A|F1|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+658,S4|A|F1|H1|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+659,S4|A|F2|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+660,S4|A|F2|H2|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+661,S4|A|F3|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+662,S4|A|F3|H3|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+663,S4|A|F4|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+664,S4|A|F4|H4|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+665,S4|B|F1|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+666,S4|B|F1|H1|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+667,S4|B|F2|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+668,S4|B|F2|H2|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+669,S4|B|F3|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+670,S4|B|F3|H3|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+671,S4|B|F4|H0|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+672,S4|B|F4|H4|L1|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+673,S4|B|F1|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+674,S4|B|F1|H1|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+675,S4|B|F2|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+676,S4|B|F2|H2|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+677,S4|B|F3|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+678,S4|B|F3|H3|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+679,S4|B|F4|H0|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+680,S4|B|F4|H4|L2|4,S4,4,edb9979fddbcaaf38afb763a3bf2ad2bb614e642b97ee668192adf717d0352a0,train,S1-S9 train split; lower-scale training set
+681,S5|A|F1|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+682,S5|A|F1|H1|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+683,S5|A|F2|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+684,S5|A|F2|H2|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+685,S5|A|F3|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+686,S5|A|F3|H3|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+687,S5|A|F4|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+688,S5|A|F4|H4|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+689,S5|A|F1|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+690,S5|A|F1|H1|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+691,S5|A|F2|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+692,S5|A|F2|H2|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+693,S5|A|F3|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+694,S5|A|F3|H3|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+695,S5|A|F4|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+696,S5|A|F4|H4|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+697,S5|B|F1|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+698,S5|B|F1|H1|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+699,S5|B|F2|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+700,S5|B|F2|H2|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+701,S5|B|F3|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+702,S5|B|F3|H3|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+703,S5|B|F4|H0|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+704,S5|B|F4|H4|L1|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+705,S5|B|F1|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+706,S5|B|F1|H1|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+707,S5|B|F2|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+708,S5|B|F2|H2|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+709,S5|B|F3|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+710,S5|B|F3|H3|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+711,S5|B|F4|H0|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+712,S5|B|F4|H4|L2|1,S5,1,aa50443e1e0543bf8f9bbfd39a04b8abc910773ecb0fa0ed5ef6865e843e54e5,train,S1-S9 train split; lower-scale training set
+713,S5|A|F1|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+714,S5|A|F1|H1|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+715,S5|A|F2|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+716,S5|A|F2|H2|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+717,S5|A|F3|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+718,S5|A|F3|H3|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+719,S5|A|F4|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+720,S5|A|F4|H4|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+721,S5|A|F1|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+722,S5|A|F1|H1|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+723,S5|A|F2|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+724,S5|A|F2|H2|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+725,S5|A|F3|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+726,S5|A|F3|H3|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+727,S5|A|F4|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+728,S5|A|F4|H4|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+729,S5|B|F1|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+730,S5|B|F1|H1|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+731,S5|B|F2|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+732,S5|B|F2|H2|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+733,S5|B|F3|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+734,S5|B|F3|H3|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+735,S5|B|F4|H0|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+736,S5|B|F4|H4|L1|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+737,S5|B|F1|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+738,S5|B|F1|H1|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+739,S5|B|F2|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+740,S5|B|F2|H2|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+741,S5|B|F3|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+742,S5|B|F3|H3|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+743,S5|B|F4|H0|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+744,S5|B|F4|H4|L2|2,S5,2,95d392cbdb4b889e466ddbf092ae11927f9059aad64e10dca28dc0d08217c305,train,S1-S9 train split; lower-scale training set
+745,S5|A|F1|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+746,S5|A|F1|H1|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+747,S5|A|F2|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+748,S5|A|F2|H2|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+749,S5|A|F3|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+750,S5|A|F3|H3|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+751,S5|A|F4|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+752,S5|A|F4|H4|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+753,S5|A|F1|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+754,S5|A|F1|H1|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+755,S5|A|F2|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+756,S5|A|F2|H2|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+757,S5|A|F3|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+758,S5|A|F3|H3|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+759,S5|A|F4|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+760,S5|A|F4|H4|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+761,S5|B|F1|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+762,S5|B|F1|H1|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+763,S5|B|F2|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+764,S5|B|F2|H2|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+765,S5|B|F3|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+766,S5|B|F3|H3|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+767,S5|B|F4|H0|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+768,S5|B|F4|H4|L1|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+769,S5|B|F1|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+770,S5|B|F1|H1|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+771,S5|B|F2|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+772,S5|B|F2|H2|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+773,S5|B|F3|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+774,S5|B|F3|H3|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+775,S5|B|F4|H0|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+776,S5|B|F4|H4|L2|3,S5,3,22286c0037c7b764dff6699ebcf27660bdde702071d884e5e1023ea9adfb80fe,train,S1-S9 train split; lower-scale training set
+777,S5|A|F1|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+778,S5|A|F1|H1|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+779,S5|A|F2|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+780,S5|A|F2|H2|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+781,S5|A|F3|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+782,S5|A|F3|H3|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+783,S5|A|F4|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+784,S5|A|F4|H4|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+785,S5|A|F1|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+786,S5|A|F1|H1|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+787,S5|A|F2|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+788,S5|A|F2|H2|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+789,S5|A|F3|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+790,S5|A|F3|H3|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+791,S5|A|F4|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+792,S5|A|F4|H4|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+793,S5|B|F1|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+794,S5|B|F1|H1|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+795,S5|B|F2|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+796,S5|B|F2|H2|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+797,S5|B|F3|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+798,S5|B|F3|H3|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+799,S5|B|F4|H0|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+800,S5|B|F4|H4|L1|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+801,S5|B|F1|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+802,S5|B|F1|H1|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+803,S5|B|F2|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+804,S5|B|F2|H2|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+805,S5|B|F3|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+806,S5|B|F3|H3|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+807,S5|B|F4|H0|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+808,S5|B|F4|H4|L2|4,S5,4,05df5d9f44c101771ac66f167b7b1e6a486adc1e87a25ec2f5ac64810674d321,train,S1-S9 train split; lower-scale training set
+809,S6|A|F1|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+810,S6|A|F1|H1|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+811,S6|A|F2|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+812,S6|A|F2|H2|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+813,S6|A|F3|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+814,S6|A|F3|H3|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+815,S6|A|F4|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+816,S6|A|F4|H4|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+817,S6|A|F1|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+818,S6|A|F1|H1|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+819,S6|A|F2|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+820,S6|A|F2|H2|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+821,S6|A|F3|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+822,S6|A|F3|H3|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+823,S6|A|F4|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+824,S6|A|F4|H4|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+825,S6|B|F1|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+826,S6|B|F1|H1|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+827,S6|B|F2|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+828,S6|B|F2|H2|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+829,S6|B|F3|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+830,S6|B|F3|H3|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+831,S6|B|F4|H0|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+832,S6|B|F4|H4|L1|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+833,S6|B|F1|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+834,S6|B|F1|H1|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+835,S6|B|F2|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+836,S6|B|F2|H2|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+837,S6|B|F3|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+838,S6|B|F3|H3|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+839,S6|B|F4|H0|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+840,S6|B|F4|H4|L2|1,S6,1,b75f521652327de15870ad871c0d38c23d5b0b152841ffd259a54e2a0e7420d4,train,S1-S9 train split; lower-scale training set
+841,S6|A|F1|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+842,S6|A|F1|H1|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+843,S6|A|F2|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+844,S6|A|F2|H2|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+845,S6|A|F3|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+846,S6|A|F3|H3|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+847,S6|A|F4|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+848,S6|A|F4|H4|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+849,S6|A|F1|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+850,S6|A|F1|H1|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+851,S6|A|F2|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+852,S6|A|F2|H2|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+853,S6|A|F3|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+854,S6|A|F3|H3|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+855,S6|A|F4|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+856,S6|A|F4|H4|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+857,S6|B|F1|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+858,S6|B|F1|H1|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+859,S6|B|F2|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+860,S6|B|F2|H2|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+861,S6|B|F3|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+862,S6|B|F3|H3|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+863,S6|B|F4|H0|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+864,S6|B|F4|H4|L1|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+865,S6|B|F1|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+866,S6|B|F1|H1|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+867,S6|B|F2|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+868,S6|B|F2|H2|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+869,S6|B|F3|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+870,S6|B|F3|H3|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+871,S6|B|F4|H0|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+872,S6|B|F4|H4|L2|2,S6,2,15feeb87ccc4c1e0a6af073cb3afd00d9b032f967a81f87fd682e34a75f15c20,train,S1-S9 train split; lower-scale training set
+873,S6|A|F1|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+874,S6|A|F1|H1|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+875,S6|A|F2|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+876,S6|A|F2|H2|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+877,S6|A|F3|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+878,S6|A|F3|H3|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+879,S6|A|F4|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+880,S6|A|F4|H4|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+881,S6|A|F1|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+882,S6|A|F1|H1|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+883,S6|A|F2|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+884,S6|A|F2|H2|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+885,S6|A|F3|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+886,S6|A|F3|H3|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+887,S6|A|F4|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+888,S6|A|F4|H4|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+889,S6|B|F1|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+890,S6|B|F1|H1|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+891,S6|B|F2|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+892,S6|B|F2|H2|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+893,S6|B|F3|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+894,S6|B|F3|H3|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+895,S6|B|F4|H0|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+896,S6|B|F4|H4|L1|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+897,S6|B|F1|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+898,S6|B|F1|H1|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+899,S6|B|F2|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+900,S6|B|F2|H2|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+901,S6|B|F3|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+902,S6|B|F3|H3|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+903,S6|B|F4|H0|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+904,S6|B|F4|H4|L2|3,S6,3,5bbfad5b115f37ed12499db4ab5d35a53a3c00cc5f023dc2cd1cd5c04f354a99,train,S1-S9 train split; lower-scale training set
+905,S6|A|F1|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+906,S6|A|F1|H1|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+907,S6|A|F2|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+908,S6|A|F2|H2|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+909,S6|A|F3|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+910,S6|A|F3|H3|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+911,S6|A|F4|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+912,S6|A|F4|H4|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+913,S6|A|F1|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+914,S6|A|F1|H1|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+915,S6|A|F2|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+916,S6|A|F2|H2|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+917,S6|A|F3|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+918,S6|A|F3|H3|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+919,S6|A|F4|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+920,S6|A|F4|H4|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+921,S6|B|F1|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+922,S6|B|F1|H1|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+923,S6|B|F2|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+924,S6|B|F2|H2|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+925,S6|B|F3|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+926,S6|B|F3|H3|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+927,S6|B|F4|H0|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+928,S6|B|F4|H4|L1|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+929,S6|B|F1|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+930,S6|B|F1|H1|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+931,S6|B|F2|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+932,S6|B|F2|H2|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+933,S6|B|F3|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+934,S6|B|F3|H3|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+935,S6|B|F4|H0|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+936,S6|B|F4|H4|L2|4,S6,4,ccb2cdf1807e955663380d45e206919b99aa2de6b1270805ef3e5ba33780253f,train,S1-S9 train split; lower-scale training set
+937,S7|A|F0|H0|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+938,S7|A|F0|H0|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+939,S7|B|F0|H0|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+940,S7|B|F0|H0|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+941,S7|A|F1|H1|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+942,S7|A|F1|H1|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+943,S7|B|F1|H1|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+944,S7|B|F1|H1|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+945,S7|A|F4|H4|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+946,S7|A|F4|H4|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+947,S7|B|F4|H4|L1|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+948,S7|B|F4|H4|L2|1,S7,1,7fccac9f9de14a200c0a60f1a4661133841237a4c7fe08d49364c43fe25e19ec,train,S1-S9 train split; lower-scale training set
+951,S8|A|F0|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+952,S8|A|F0|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+953,S8|B|F0|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+954,S8|B|F0|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+958,S8|B|F1|H1|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+959,S8|A|F4|H4|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+960,S8|A|F4|H4|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+961,S8|B|F4|H4|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+962,S8|B|F4|H4|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+968,S8|B|F1|H1|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+969,S8|A|F1|H1|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+970,S8|A|F1|H1|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+971,S8|B|F1|H1|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+972,S8|A|F1|H1|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+973,S8|A|F1|H1|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+974,S8|B|F1|H1|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+975,S8|A|F2|H2|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+976,S8|A|F2|H2|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+977,S8|A|F2|H2|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+978,S8|A|F2|H2|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+979,S8|B|F2|H2|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+980,S8|B|F2|H2|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+981,S8|B|F2|H2|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+982,S8|B|F2|H2|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+983,S8|A|F3|H3|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+984,S8|A|F3|H3|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+985,S8|A|F3|H3|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+986,S8|A|F3|H3|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+987,S8|B|F3|H3|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+988,S8|B|F3|H3|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+989,S8|B|F3|H3|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+990,S8|B|F3|H3|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+991,S8|A|F4|H4|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+992,S8|A|F4|H4|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+993,S8|B|F4|H4|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+994,S8|B|F4|H4|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+995,S8|A|F1|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+996,S8|A|F1|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+997,S8|A|F1|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+998,S8|A|F1|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+999,S8|B|F1|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1000,S8|B|F1|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1001,S8|B|F1|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1002,S8|B|F1|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1003,S8|A|F2|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1004,S8|A|F2|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1005,S8|A|F2|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1006,S8|A|F2|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1007,S8|B|F2|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1008,S8|B|F2|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1009,S8|B|F2|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1010,S8|B|F2|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1011,S8|A|F3|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1012,S8|A|F3|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1013,S8|A|F3|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1014,S8|A|F3|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1015,S8|B|F3|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1016,S8|B|F3|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1017,S8|B|F3|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1018,S8|B|F3|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1019,S8|A|F4|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1020,S8|A|F4|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1021,S8|A|F4|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1022,S8|A|F4|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1023,S8|B|F4|H0|L1|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1024,S8|B|F4|H0|L1|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1025,S8|B|F4|H0|L2|1,S8,1,fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5,train,S1-S9 train split; lower-scale training set
+1026,S8|B|F4|H0|L2|2,S8,2,9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f,train,S1-S9 train split; lower-scale training set
+1027,S9|A|F0|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1029,S9|A|F0|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1030,S9|B|F0|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1031,S9|B|F0|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1032,S9|A|F1|H1|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1033,S9|A|F1|H1|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1034,S9|B|F1|H1|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1035,S9|B|F1|H1|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1036,S9|A|F4|H4|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1037,S9|A|F4|H4|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1038,S9|B|F4|H4|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1039,S9|B|F4|H4|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1040,S9|A|F1|H1|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1041,S9|A|F1|H1|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1042,S9|B|F1|H1|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1043,S9|B|F1|H1|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1044,S9|A|F2|H2|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1045,S9|A|F2|H2|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1046,S9|A|F2|H2|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1047,S9|A|F2|H2|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1048,S9|B|F2|H2|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1049,S9|B|F2|H2|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1050,S9|B|F2|H2|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1051,S9|B|F2|H2|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1052,S9|A|F3|H3|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1053,S9|A|F3|H3|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1054,S9|A|F3|H3|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1055,S9|A|F3|H3|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1056,S9|B|F3|H3|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1057,S9|B|F3|H3|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1058,S9|B|F3|H3|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1059,S9|B|F3|H3|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1060,S9|A|F4|H4|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1061,S9|A|F4|H4|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1062,S9|B|F4|H4|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1063,S9|B|F4|H4|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1064,S9|A|F1|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1065,S9|A|F1|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1066,S9|A|F1|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1067,S9|A|F1|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1068,S9|B|F1|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1069,S9|B|F1|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1070,S9|B|F1|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1071,S9|B|F1|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1072,S9|A|F2|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1073,S9|A|F2|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1074,S9|A|F2|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1075,S9|A|F2|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1076,S9|B|F2|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1077,S9|B|F2|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1078,S9|B|F2|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1079,S9|B|F2|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1080,S9|A|F3|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1081,S9|A|F3|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1082,S9|A|F3|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1083,S9|A|F3|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1084,S9|B|F3|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1085,S9|B|F3|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1086,S9|B|F3|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1087,S9|B|F3|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1088,S9|A|F4|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1089,S9|A|F4|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1090,S9|A|F4|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1091,S9|A|F4|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1092,S9|B|F4|H0|L1|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1093,S9|B|F4|H0|L1|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1094,S9|B|F4|H0|L2|1,S9,1,b1a269ea312df101dae663163fb8c0968a4bef6686220abd6fbca88960b9de94,train,S1-S9 train split; lower-scale training set
+1095,S9|B|F4|H0|L2|2,S9,2,f71c0709088bfdd13aa4f1e44523eec9d1981aa5ea9db909806f0d17795a22d0,train,S1-S9 train split; lower-scale training set
+1096,S10|A|F0|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1097,S10|A|F0|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1098,S10|B|F0|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1099,S10|B|F0|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1100,S10|A|F1|H1|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1101,S10|A|F1|H1|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1102,S10|B|F1|H1|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1103,S10|B|F1|H1|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1104,S10|A|F4|H4|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1105,S10|A|F4|H4|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1106,S10|B|F4|H4|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1107,S10|B|F4|H4|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1108,S10|A|F1|H1|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1109,S10|A|F1|H1|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1110,S10|B|F1|H1|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1111,S10|B|F1|H1|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1112,S10|A|F2|H2|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1113,S10|A|F2|H2|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1114,S10|A|F2|H2|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1115,S10|A|F2|H2|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1116,S10|B|F2|H2|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1117,S10|B|F2|H2|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1118,S10|B|F2|H2|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1119,S10|B|F2|H2|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1120,S10|A|F3|H3|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1121,S10|A|F3|H3|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1122,S10|A|F3|H3|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1123,S10|A|F3|H3|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1124,S10|B|F3|H3|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1125,S10|B|F3|H3|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1126,S10|B|F3|H3|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1127,S10|B|F3|H3|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1128,S10|A|F4|H4|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1129,S10|A|F4|H4|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1130,S10|B|F4|H4|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1131,S10|B|F4|H4|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1132,S10|A|F1|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1133,S10|A|F1|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1134,S10|A|F1|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1135,S10|A|F1|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1136,S10|B|F1|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1137,S10|B|F1|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1138,S10|B|F1|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1171,S10|B|F1|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1172,S10|A|F2|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1173,S10|A|F2|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1174,S10|A|F2|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1175,S10|A|F2|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1176,S10|B|F2|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1177,S10|B|F2|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1178,S10|B|F2|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1179,S10|B|F2|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1180,S10|A|F3|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1181,S10|A|F3|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1182,S10|A|F3|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1183,S10|A|F3|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1184,S10|B|F3|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1185,S10|B|F3|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1186,S10|B|F3|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1187,S10|B|F3|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1188,S10|A|F4|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1189,S10|A|F4|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1190,S10|A|F4|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1191,S10|A|F4|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1192,S10|B|F4|H0|L1|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1193,S10|B|F4|H0|L1|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1194,S10|B|F4|H0|L2|1,S10,1,5a035ddc11ec73766a6b09890884cfd469ac226a4208000d469cbf76063437cf,validation,S10 validation split; scale held out for validation
+1195,S10|B|F4|H0|L2|2,S10,2,d01a6f3e89e8ac95d6cc8f92a6a678b67d124913e55196ac4d15dc4a16ccd8e2,validation,S10 validation split; scale held out for validation
+1196,S11|A|F0|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1197,S11|A|F0|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1198,S11|B|F0|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1199,S11|B|F0|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1200,S11|A|F1|H1|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1201,S11|A|F1|H1|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1202,S11|B|F1|H1|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1203,S11|B|F1|H1|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1204,S11|A|F4|H4|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1205,S11|A|F4|H4|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1206,S11|B|F4|H4|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1207,S11|B|F4|H4|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1208,S11|A|F1|H1|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1209,S11|A|F1|H1|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1210,S11|B|F1|H1|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1211,S11|B|F1|H1|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1212,S11|A|F2|H2|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1213,S11|A|F2|H2|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1214,S11|A|F2|H2|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1215,S11|A|F2|H2|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1216,S11|B|F2|H2|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1217,S11|B|F2|H2|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1218,S11|B|F2|H2|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1219,S11|B|F2|H2|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1220,S11|A|F3|H3|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1221,S11|A|F3|H3|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1222,S11|A|F3|H3|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1223,S11|A|F3|H3|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1224,S11|B|F3|H3|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1225,S11|B|F3|H3|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1226,S11|B|F3|H3|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1227,S11|B|F3|H3|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1228,S11|A|F4|H4|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1229,S11|A|F4|H4|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1230,S11|B|F4|H4|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1231,S11|B|F4|H4|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1232,S11|A|F1|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1233,S11|A|F1|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1234,S11|A|F1|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1235,S11|A|F1|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1236,S11|B|F1|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1237,S11|B|F1|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1238,S11|B|F1|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1239,S11|B|F1|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1240,S11|A|F2|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1241,S11|A|F2|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1242,S11|A|F2|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1243,S11|A|F2|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1244,S11|B|F2|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1245,S11|B|F2|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1246,S11|B|F2|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1247,S11|B|F2|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1248,S11|A|F3|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1249,S11|A|F3|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1250,S11|A|F3|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1251,S11|A|F3|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1252,S11|B|F3|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1253,S11|B|F3|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1254,S11|B|F3|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1255,S11|B|F3|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1256,S11|A|F4|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1257,S11|A|F4|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1258,S11|A|F4|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1259,S11|A|F4|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1260,S11|B|F4|H0|L1|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1261,S11|B|F4|H0|L1|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1262,S11|B|F4|H0|L2|1,S11,1,da0f82673a1e53a70276ea5a21e5bfdd1e67d194cda9fd1e5302358e0ce4037f,test,S11 test split; final unseen 5000-node scale
+1263,S11|B|F4|H0|L2|2,S11,2,864f65814307b9ea9ae77b23c25bca21810a5815105e3b57ca9b4f6202165c67,test,S11 test split; final unseen 5000-node scale
+1264,S1|A|F0|H0|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set
+1265,S1|A|F1|H1|L1|1,S1,1,5782f00887377f0d649f0ea5832c101fd641617fc635951625846fdf653a22c0,train,S1-S9 train split; lower-scale training set

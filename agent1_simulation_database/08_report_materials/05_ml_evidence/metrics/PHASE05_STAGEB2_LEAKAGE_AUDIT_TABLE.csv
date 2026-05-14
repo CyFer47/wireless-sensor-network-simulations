@@ -1,0 +1,159 @@
+model_name,target,feature_name,feature_category,safe_for_pre_recovery,reason
+Model A,traffic_recovery_delay_s,architecture_B,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,failure_family_F2,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,failure_family_F3,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,failure_family_F4,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,final_agg_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_agg_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_agg_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_avg_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_consumed_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_failed_chs,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_min_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_raw_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_raw_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_raw_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,final_recovered_clusters,post-simulation outcome feature,No,post-simulation outcome feature
+Model A,traffic_recovery_delay_s,healing_id_H2,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,healing_id_H3,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,healing_id_H4,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,load_L2,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,low_nodes,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S2,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S3,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S4,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S5,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S6,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S7,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S8,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,scale_S9,pre-simulation feature,Yes,pre-simulation feature
+Model A,traffic_recovery_delay_s,seed,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,architecture_B,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,cluster_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,failure_family_F1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,failure_family_F2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,failure_family_F3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,failure_family_F4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,failure_injection_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_agg_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_agg_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_avg_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_consumed_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_failed_chs,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_min_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_raw_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_raw_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_raw_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,final_recovered_clusters,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,first_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,first_recovered_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,healing_id_H1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,healing_id_H2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,healing_id_H3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,healing_id_H4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,load_L2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,low_nodes,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,node_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,recovery_applied_s,recovery-process feature,No,recovery-process feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S5,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S6,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S7,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S8,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,scale_S9,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,seed,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,sim_time_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,traffic_recovery_delay_s,recovery-process feature,No,recovery-process feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,variant_V2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_agg_delivery_ratio),final_agg_delivery_ratio,variant_V3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,architecture_B,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,cluster_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,failure_family_F1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,failure_family_F2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,failure_family_F3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,failure_family_F4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,failure_injection_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,final_agg_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_agg_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_agg_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_avg_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_failed_chs,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_min_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_raw_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_raw_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_raw_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,final_recovered_clusters,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_consumed_j),final_consumed_j,first_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_consumed_j),final_consumed_j,first_recovered_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_consumed_j),final_consumed_j,healing_id_H1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,healing_id_H2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,healing_id_H3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,healing_id_H4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,load_L2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,low_nodes,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,node_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,recovery_applied_s,recovery-process feature,No,recovery-process feature
+Model B (final_consumed_j),final_consumed_j,scale_S2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S5,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S6,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S7,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S8,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,scale_S9,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,seed,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,sim_time_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,traffic_recovery_delay_s,recovery-process feature,No,recovery-process feature
+Model B (final_consumed_j),final_consumed_j,variant_V2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_consumed_j),final_consumed_j,variant_V3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,architecture_B,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,cluster_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,failure_family_F1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,failure_family_F2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,failure_family_F3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,failure_family_F4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,failure_injection_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_agg_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_agg_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_agg_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_avg_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_consumed_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_failed_chs,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_min_res_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_raw_delivery_ratio,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_raw_rx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,final_raw_tx,post-simulation outcome feature,No,post-simulation outcome feature
+Model B (final_recovered_clusters),final_recovered_clusters,first_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_recovered_clusters),final_recovered_clusters,first_recovered_aggregate_s,unsafe leakage feature,No,unsafe leakage feature
+Model B (final_recovered_clusters),final_recovered_clusters,healing_id_H1,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,healing_id_H2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,healing_id_H3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,healing_id_H4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,load_L2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,low_nodes,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,node_count,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,recovery_applied_s,recovery-process feature,No,recovery-process feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S3,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S4,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S5,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S6,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S7,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S8,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,scale_S9,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,seed,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,sim_time_s,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,traffic_recovery_delay_s,recovery-process feature,No,recovery-process feature
+Model B (final_recovered_clusters),final_recovered_clusters,variant_V2,pre-simulation feature,Yes,pre-simulation feature
+Model B (final_recovered_clusters),final_recovered_clusters,variant_V3,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,agg_delivery_ratio,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,consumed_j,post-simulation outcome feature,No,post-simulation outcome feature
+Model C,active_healing_beats_H0,h0_score,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,healing_id_H2,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,healing_id_H3,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,healing_id_H4,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,low_nodes,pre-simulation feature,Yes,pre-simulation feature
+Model C,active_healing_beats_H0,recovered_clusters,post-simulation outcome feature,No,post-simulation outcome feature
+Model C,active_healing_beats_H0,recovery_delay_s,recovery-process feature,No,recovery-process feature

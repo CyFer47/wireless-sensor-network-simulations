@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Self-healing Wireless Sensor Network Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Self-healing Wireless Sensor Network Dashboard</h1>
+      <p class="muted">Run inspection, replay analysis, and self-healing performance metrics</p>
+    </div>
+    <div class="controls-row">
+      <label>Run</label>
+      <select id="runSelect"></select>
+      <button id="refreshRunsBtn">Refresh Runs</button>
+      <label class="toggle-wrap">
+        <input type="checkbox" id="autoRefreshToggle" /> Auto refresh
+      </label>
+      <span id="statusBadge" class="badge">loading</span>
+    </div>
+  </header>
+
+  <section class="cards" id="summaryCards"></section>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="overview">Overview</button>
+    <button class="tab" data-tab="global">Global Timeseries</button>
+    <button class="tab" data-tab="clusters">Cluster Timeseries</button>
+    <button class="tab" data-tab="events">Events</button>
+    <button class="tab" data-tab="nodesstatic">Nodes Static</button>
+    <button class="tab" data-tab="runsummary">Run Summary</button>
+    <button class="tab" data-tab="nodefinal">Node Final Summary</button>
+    <button class="tab" data-tab="raw">Raw DB View</button>
+    <button class="tab" data-tab="comparison">Run Comparison</button>
+    <button class="tab" data-tab="analytics">Experiment Analytics</button>
+    <button class="tab" data-tab="replay">Replay Viewer</button>
+  </nav>
+
+  <main>
+    <section id="tab-overview" class="tab-panel active">
+      <div id="overviewIdentity" class="panel"></div>
+      <div id="overviewConfig" class="panel"></div>
+      <div id="overviewResult" class="panel"></div>
+      <div id="clusterSummaryGrid" class="cluster-grid"></div>
+    </section>
+
+    <section id="tab-global" class="tab-panel">
+      <div class="filter-row">
+        <label>Metric Preset
+          <select id="globalMetricPreset"></select>
+        </label>
+        <label>From Time <input id="globalFromTime" type="number" step="0.1" /></label>
+        <label>To Time <input id="globalToTime" type="number" step="0.1" /></label>
+        <button id="globalApplyBtn">Apply</button>
+      </div>
+      <div id="globalMetricChecklist" class="metric-checklist panel"></div>
+      <div class="panel">
+        <canvas id="globalChart" height="240"></canvas>
+        <div id="globalLegend" class="legend-row"></div>
+      </div>
+      <div id="globalStats" class="panel"></div>
+      <div id="globalTable"></div>
+    </section>
+
+    <section id="tab-clusters" class="tab-panel">
+      <div class="filter-row">
+        <label>Cluster ID <input id="clusterFilterId" type="number" /></label>
+        <label>From Time <input id="clusterFromTime" type="number" step="0.1" /></label>
+        <label>To Time <input id="clusterToTime" type="number" step="0.1" /></label>
+        <button id="clusterApplyBtn">Apply</button>
+      </div>
+      <div id="clusterCompactSummary" class="panel"></div>
+      <div id="clusterMetricChecklist" class="metric-checklist panel"></div>
+      <div class="panel">
+        <canvas id="clusterChart" height="220"></canvas>
+        <div id="clusterLegend" class="legend-row"></div>
+      </div>
+      <div id="clusterTable"></div>
+    </section>
+
+    <section id="tab-events" class="tab-panel">
+      <div class="filter-row">
+        <label>Search <input id="eventSearch" type="text" placeholder="message / event type" /></label>
+        <label>Category
+          <select id="eventCategory">
+            <option value="">all</option>
+            <option value="failure">failure</option>
+            <option value="recovery">recovery</option>
+            <option value="aggregate">aggregate</option>
+            <option value="relay">relay</option>
+            <option value="traffic">traffic</option>
+            <option value="milestone">milestone</option>
+            <option value="other">other</option>
+          </select>
+        </label>
+        <label>From Time <input id="eventFromTime" type="number" step="0.1" /></label>
+        <label>To Time <input id="eventToTime" type="number" step="0.1" /></label>
+        <label>Order
+          <select id="eventOrder"><option value="desc">desc</option><option value="asc">asc</option></select>
+        </label>
+        <button id="eventApplyBtn">Apply</button>
+      </div>
+      <div id="eventsTimeline" class="panel"></div>
+      <div id="eventsTable"></div>
+      <div id="eventsPager" class="pager"></div>
+    </section>
+
+    <section id="tab-nodesstatic" class="tab-panel">
+      <div class="filter-row">
+        <label>Node ID <input id="nodesStaticNodeId" type="number" /></label>
+        <label>Role
+          <select id="nodesStaticRoleFilter">
+            <option value="">all</option>
+            <option value="ch">CH</option>
+            <option value="member">member</option>
+            <option value="bs">base station</option>
+          </select>
+        </label>
+        <label>Cluster ID <input id="nodesStaticClusterFilter" type="number" /></label>
+        <label>Sort
+          <select id="nodesStaticSort">
+            <option value="node_id">node_id</option>
+            <option value="cluster_id">cluster_id</option>
+            <option value="role">role</option>
+            <option value="residual_j">residual_j</option>
+            <option value="consumed_j">consumed_j</option>
+          </select>
+        </label>
+        <label>Order
+          <select id="nodesStaticOrder"><option value="asc">asc</option><option value="desc">desc</option></select>
+        </label>
+        <button id="nodesStaticApplyBtn">Apply</button>
+      </div>
+      <div id="nodesStaticSummary" class="panel"></div>
+      <div id="nodesStaticTable"></div>
+      <div id="nodesStaticPager" class="pager"></div>
+    </section>
+
+    <section id="tab-runsummary" class="tab-panel">
+      <div id="runSummaryPanel" class="panel"></div>
+    </section>
+
+    <section id="tab-nodefinal" class="tab-panel">
+      <div class="filter-row">
+        <label>Role
+          <select id="nodeRoleFilter">
+            <option value="">all</option>
+            <option value="ch">CH</option>
+            <option value="member">member</option>
+            <option value="bs">base station</option>
+          </select>
+        </label>
+        <label>Cluster ID <input id="nodeClusterFilter" type="number" /></label>
+        <label>Sort
+          <select id="nodeSort">
+            <option value="residual_j">residual_j</option>
+            <option value="consumed_j">consumed_j</option>
+            <option value="node_id">node_id</option>
+            <option value="cluster_id">cluster_id</option>
+            <option value="role">role</option>
+          </select>
+        </label>
+        <label>Order
+          <select id="nodeOrder"><option value="asc">asc</option><option value="desc">desc</option></select>
+        </label>
+        <button id="nodeApplyBtn">Apply</button>
+      </div>
+
+      <div class="topk-grid">
+        <div id="lowestResidualPanel" class="panel"></div>
+        <div id="highestConsumedPanel" class="panel"></div>
+      </div>
+      <div id="roleSummaryPanel" class="panel"></div>
+      <div id="nodeFinalTable"></div>
+      <div id="nodeFinalPager" class="pager"></div>
+    </section>
+
+    <section id="tab-raw" class="tab-panel">
+      <div class="filter-row">
+        <label>Table <select id="rawTableSelect"></select></label>
+        <label>Sort <input id="rawSort" type="text" value="run_id" /></label>
+        <label>Order
+          <select id="rawOrder"><option value="desc">desc</option><option value="asc">asc</option></select>
+        </label>
+        <button id="rawApplyBtn">Load Table</button>
+      </div>
+      <div id="rawTable"></div>
+      <div id="rawPager" class="pager"></div>
+    </section>
+
+    <section id="tab-comparison" class="tab-panel">
+      <div class="filter-row">
+        <label>Primary Run
+          <select id="comparePrimaryRun"></select>
+        </label>
+        <label>Comparison Run
+          <select id="compareSecondaryRun"></select>
+        </label>
+        <button id="compareApplyBtn">Compare</button>
+      </div>
+      <div id="comparisonSummary" class="panel"></div>
+      <div class="panel">
+        <h3>Run Comparison Charts</h3>
+        <canvas id="comparisonMainChart" height="220"></canvas>
+        <div id="comparisonMainLegend" class="legend-row"></div>
+      </div>
+      <div class="panel">
+        <h3>Per-Cluster Comparison Charts</h3>
+        <canvas id="comparisonClusterChart" height="220"></canvas>
+        <div id="comparisonClusterLegend" class="legend-row"></div>
+      </div>
+      <div class="panel">
+        <button id="comparisonExportCsvBtn">Export Comparison CSV</button>
+      </div>
+      <div id="comparisonMeta" class="panel"></div>
+      <div id="comparisonConfig" class="panel"></div>
+      <div id="comparisonResults" class="panel"></div>
+      <div id="comparisonClusters" class="panel"></div>
+    </section>
+
+    <section id="tab-analytics" class="tab-panel">
+      <div class="panel">
+        <h3>Run Explorer Filters</h3>
+        <div class="filter-row">
+          <label>Experiment Version <input id="analyticsFilterExperimentVersion" type="text" placeholder="sample_20260324" /></label>
+          <label>Scenario Name <input id="analyticsFilterScenarioName" type="text" placeholder="cluster-dashboard" /></label>
+          <label>Recovery
+            <select id="analyticsFilterRecoveryEnabled">
+              <option value="">all</option>
+              <option value="true">recovery on</option>
+              <option value="false">recovery off</option>
+            </select>
+          </label>
+          <label>Failure Time <input id="analyticsFilterFailureTime" type="number" step="0.1" /></label>
+          <label>Recovery Delay <input id="analyticsFilterRecoveryDelay" type="number" step="0.1" /></label>
+          <label>Sim Time <input id="analyticsFilterSimTime" type="number" step="0.1" /></label>
+          <label>Node Count <input id="analyticsFilterNodeCount" type="number" /></label>
+          <label>Cluster Count <input id="analyticsFilterClusterCount" type="number" /></label>
+          <label>Started From <input id="analyticsFilterStartedFrom" type="text" placeholder="2026-04-01" /></label>
+          <label>Started To <input id="analyticsFilterStartedTo" type="text" placeholder="2026-04-30" /></label>
+          <label>Sort
+            <select id="analyticsSortBy">
+              <option value="newest">newest</option>
+              <option value="oldest">oldest</option>
+              <option value="raw_delivery_pct">raw delivery %</option>
+              <option value="agg_rx_total">agg rx total</option>
+              <option value="total_consumed_j">total consumed j</option>
+              <option value="min_residual_j">min residual j</option>
+              <option value="recovered_clusters">recovered clusters</option>
+              <option value="failed_chs">failed chs</option>
+            </select>
+          </label>
+          <label>Order
+            <select id="analyticsSortOrder">
+              <option value="desc">desc</option>
+              <option value="asc">asc</option>
+            </select>
+          </label>
+          <label>Group By
+            <select id="analyticsGroupBy">
+              <option value="">none</option>
+              <option value="recovery_enabled">recovery_enabled</option>
+              <option value="failure_time_s">failure_time_s</option>
+              <option value="recovery_delay_s">recovery_delay_s</option>
+            </select>
+          </label>
+          <button id="analyticsApplyBtn">Apply</button>
+          <button id="analyticsResetBtn">Reset</button>
+        </div>
+      </div>
+
+      <div class="panel analytics-select-row">
+        <label class="toggle-wrap"><input type="checkbox" id="analyticsSelectAllVisible" /> Select all filtered</label>
+        <span id="analyticsSelectionInfo" class="muted">0 selected</span>
+        <button id="analyticsExportRunsCsvBtn">Export Filtered Runs CSV</button>
+        <button id="analyticsExportSummaryCsvBtn">Export Analytics Summary CSV</button>
+        <button id="analyticsExportClusterCsvBtn">Export Selected Cluster CSV</button>
+        <button id="analyticsExportSelectedJsonBtn">Export Selected JSON</button>
+      </div>
+
+      <div id="analyticsSummaryCards" class="panel"></div>
+      <div id="analyticsHighlights" class="panel"></div>
+
+      <div class="analytics-chart-grid">
+        <div class="panel">
+          <h3>Batch Metrics Across Runs</h3>
+          <canvas id="analyticsBatchChart" height="250"></canvas>
+          <div id="analyticsBatchLegend" class="legend-row"></div>
+        </div>
+        <div class="panel">
+          <h3>Grouped Comparison</h3>
+          <canvas id="analyticsGroupedChart" height="250"></canvas>
+          <div id="analyticsGroupedLegend" class="legend-row"></div>
+        </div>
+      </div>
+
+      <div id="analyticsRunsTable" class="panel"></div>
+      <div id="analyticsPager" class="pager"></div>
+    </section>
+
+    <section id="tab-replay" class="tab-panel">
+      <div class="panel replay-controls-panel">
+        <div class="replay-controls">
+          <label>Replay Time
+            <input id="replayTimeRange" type="range" min="0" max="30" step="0.1" value="0" />
+          </label>
+          <label>Exact Time
+            <input id="replayExactTime" type="number" step="0.1" min="0" value="0" />
+          </label>
+          <button id="replayExactJumpBtn">Jump</button>
+          <span id="replayTimeLabel" class="replay-time-label">t=0.0 s</span>
+          <button id="replayBackBtn">◀ Step</button>
+          <button id="replayPlayBtn">Play</button>
+          <button id="replayForwardBtn">Step ▶</button>
+          <label>Speed
+            <select id="replaySpeedSelect">
+              <option value="0.5">0.5x</option>
+              <option value="1" selected>1x</option>
+              <option value="2">2x</option>
+              <option value="4">4x</option>
+            </select>
+          </label>
+        </div>
+        <div class="replay-bar-wrap">
+          <div id="replayBar" class="replay-bar" role="slider" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0" tabindex="0">
+            <div id="replayBarFill" class="replay-bar-fill"></div>
+            <div id="replayBarCursor" class="replay-bar-cursor"></div>
+            <div id="replayBarMarkers" class="replay-bar-markers"></div>
+          </div>
+          <div class="replay-bar-labels">
+            <span id="replayBarStartLabel">0.0s</span>
+            <span id="replayBarEndLabel">30.0s</span>
+          </div>
+        </div>
+        <div class="replay-jumps">
+          <button id="replayJumpStartBtn">Start</button>
+          <button id="replayJumpFirstAggBtn">First aggregate</button>
+          <button id="replayJumpFailureBtn">First failure</button>
+          <button id="replayJumpRecoveryStartBtn">Recovery start</button>
+          <button id="replayJumpRecoveryAppliedBtn">Recovery applied</button>
+          <button id="replayJumpRecoveredRawBtn">First recovered raw</button>
+          <button id="replayJumpRecoveredAggBtn">First recovered aggregate</button>
+          <button id="replayJumpEndBtn">End</button>
+        </div>
+      </div>
+      <div id="replaySummary" class="panel"></div>
+      <div id="replayTopology" class="panel replay-topology"></div>
+      <div id="replayClusterStatePanel" class="panel"></div>
+      <div class="replay-event-layout">
+        <div id="replayEventPanel" class="panel"></div>
+        <div id="snapshotPanel" class="panel"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
