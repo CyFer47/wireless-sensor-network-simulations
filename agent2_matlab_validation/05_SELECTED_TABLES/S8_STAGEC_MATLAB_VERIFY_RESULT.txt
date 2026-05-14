@@ -1,0 +1,14 @@
+S8_STAGEC_MATLAB_VERIFY
+stageC_rows_visible=64
+stageC_distinct_target_rows=64
+map_lineage_missing=0
+
+[representative_pairs]
+run_id=995 fam=F1 heal=H0 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=969 fam=F1 heal=H1 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=1003 fam=F2 heal=H0 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=975 fam=F2 heal=H2 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=1011 fam=F3 heal=H0 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=983 fam=F3 heal=H3 arch=A load=L1 seed=1 map=map_S8_seed01
+run_id=1026 fam=F4 heal=H0 arch=B load=L2 seed=2 map=map_S8_seed02
+run_id=994 fam=F4 heal=H4 arch=B load=L2 seed=2 map=map_S8_seed02

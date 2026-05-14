@@ -1,0 +1,878 @@
+{
+  "connection_method": "JDBC",
+  "stageB_rows_visible": 32,
+  "stageB_distinct_target_rows": 32,
+  "map_lineage_missing": 0,
+  "window_951_994": [
+    {
+      "run_id": 951,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F0",
+      "healing_id": "H0",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 952,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F0",
+      "healing_id": "H0",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 953,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F0",
+      "healing_id": "H0",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 954,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F0",
+      "healing_id": "H0",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 958,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 959,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 960,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 961,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 962,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 968,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 969,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 970,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 971,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 972,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 973,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 974,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 975,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 976,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 977,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 978,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 979,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 980,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 981,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 982,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 983,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 984,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 985,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 986,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 987,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 988,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 989,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 990,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 991,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 992,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 993,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 2,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 994,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 2,
+      "run_status": "complete"
+    }
+  ],
+  "reimport_969_971": [
+    {
+      "run_id": 969,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 970,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 1,
+      "run_status": "complete"
+    },
+    {
+      "run_id": 971,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "run_status": "complete"
+    }
+  ],
+  "duplicate_keys": [],
+  "reimport_older_table": [
+    {
+      "run_id": 969,
+      "older_count": 0
+    },
+    {
+      "run_id": 970,
+      "older_count": 0
+    },
+    {
+      "run_id": 971,
+      "older_count": 0
+    }
+  ],
+  "reimport_has_older_rows": [
+    false,
+    false,
+    false
+  ],
+  "reimport_older_count": [
+    0,
+    0,
+    0
+  ],
+  "latest_per_key": [
+    {
+      "run_id": 958,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 959,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 960,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 961,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 962,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 968,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 969,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 970,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 971,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 972,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 973,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 974,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 975,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 976,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 977,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 978,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 979,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 980,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 981,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 982,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 983,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 984,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 985,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 986,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 987,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 988,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 989,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 1,
+      "map_id": "map_S8_seed01",
+      "map_signature": "fb969a468352b224ac76c1dce90944cf5f7dd6acc148c153e89692e2ef04ceb5"
+    },
+    {
+      "run_id": 990,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 991,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 992,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "A",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 993,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L1",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    },
+    {
+      "run_id": 994,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": 2,
+      "map_id": "map_S8_seed02",
+      "map_signature": "9d9cbda6449d002e75fc6dc97c8cf523044b156c6e3ec5d2656fa19f49a9c21f"
+    }
+  ],
+  "representative_runs": [
+    {
+      "run_id": 974,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F1",
+      "healing_id": "H1",
+      "load": "L2",
+      "seed": "2",
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 982,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F2",
+      "healing_id": "H2",
+      "load": "L2",
+      "seed": "2",
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 990,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F3",
+      "healing_id": "H3",
+      "load": "L2",
+      "seed": "2",
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 994,
+      "scenario_name": "m3-scenario-library",
+      "architecture": "B",
+      "failure_family": "F4",
+      "healing_id": "H4",
+      "load": "L2",
+      "seed": "2",
+      "marker_status": "all_present"
+    }
+  ],
+  "representative_counts": [
+    {
+      "run_id": 974,
+      "run_summary": 1,
+      "cluster_timeseries": 32340,
+      "events": 39540,
+      "node_final_summary": 3505,
+      "global_timeseries": 231,
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 982,
+      "run_summary": 1,
+      "cluster_timeseries": 32340,
+      "events": 7844,
+      "node_final_summary": 3505,
+      "global_timeseries": 231,
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 990,
+      "run_summary": 1,
+      "cluster_timeseries": 32340,
+      "events": 8078,
+      "node_final_summary": 3505,
+      "global_timeseries": 231,
+      "marker_status": "all_present"
+    },
+    {
+      "run_id": 994,
+      "run_summary": 1,
+      "cluster_timeseries": 32340,
+      "events": 10606,
+      "node_final_summary": 3505,
+      "global_timeseries": 231,
+      "marker_status": "all_present"
+    }
+  ],
+  "stress_run_id": 994,
+  "stress_markers": {
+    "failure_injection_s": 46,
+    "recovery_start_s": 50,
+    "recovery_applied_s": 50,
+    "first_recovered_raw_s": null,
+    "first_recovered_agg_s": 52,
+    "first_aggregate_s": 4
+  },
+  "plot_lastwarn_message": "",
+  "plot_lastwarn_id": "",
+  "legend_truncation_warning": false,
+  "vector_pdf_warning": false,
+  "plot_output_dir": "C:\\Users\\MSI\\Desktop\\2025 UH\\Matlab\\matlab_local\\output\\run_994",
+  "png_count": 7,
+  "pdf_count": 7,
+  "fig_count": 7,
+  "event_diag_exists": true,
+  "newest_target_run_id": 994
+}

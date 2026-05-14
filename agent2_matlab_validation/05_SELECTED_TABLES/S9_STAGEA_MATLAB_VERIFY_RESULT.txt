@@ -1,0 +1,21 @@
+========== S9 STAGE A MATLAB VERIFICATION RESULT ==========
+
+S9 Stage A rows visible: 12
+Distinct scenario keys with latest run_id: 12
+
+Representative runs selected:
+  Baseline (F0_H0_A_S9_L1_seed01): run_id 1027
+  A/B pair A (F1_H1_A_S9_L1_seed01): run_id 1032
+  A/B pair B (F1_H1_B_S9_L1_seed01): run_id 1034
+  Stress/healing (F4_H4_B_S9_L2_seed01): run_id 1039
+
+Data sizes:
+  Run 1027: cluster_ts=4160, events=1281, node_summary=4005, global_ts=26
+  Run 1032: cluster_ts=4160, events=624209, node_summary=4005, global_ts=26
+  Run 1034: cluster_ts=4160, events=624210, node_summary=4005, global_ts=26
+  Run 1039: cluster_ts=4160, events=13320, node_summary=4005, global_ts=26
+
+Event markers (run 1039):
+{"failure_injection_s":null,"recovery_start_s":null,"recovery_applied_s":null,"first_recovered_raw_s":null,"first_recovered_agg_s":null,"first_aggregate_s":null}
+
+Plotting: 1
