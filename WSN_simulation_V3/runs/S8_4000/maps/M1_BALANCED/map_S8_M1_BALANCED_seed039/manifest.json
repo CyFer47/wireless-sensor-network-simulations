@@ -1,0 +1,32 @@
+{
+  "map_schema_version": "v3_map",
+  "map_id": "map_S8_M1_BALANCED_seed039",
+  "scale_id": "S8",
+  "seed": 39,
+  "map_profile": "M1_BALANCED",
+  "deterministic_signature_sha256": "6949f58eb5e737e663d98f06a77e342ad5ac3150502d49c16055a6899ab8628e",
+  "area": {
+    "width_m": 1020,
+    "height_m": 1020
+  },
+  "counts": {
+    "node_count": 4000,
+    "ch_count": 160,
+    "bs_count": 5
+  },
+  "metrics": {
+    "mean_node_to_ch_distance": 31.792,
+    "max_node_to_ch_distance": 62.428,
+    "mean_ch_to_bs_distance": 185.702,
+    "max_ch_to_bs_distance": 359.634,
+    "cluster_size_mean": 25,
+    "cluster_size_max": 45,
+    "cluster_size_cv": 0.3123,
+    "long_link_ratio": 0.1235
+  },
+  "files": {
+    "nodes": "nodes.csv",
+    "ch_bs": "ch_bs.csv",
+    "node_cluster_map": "node_cluster_map.csv"
+  }
+}

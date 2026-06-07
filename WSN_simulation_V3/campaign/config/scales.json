@@ -1,0 +1,12 @@
+{
+  "S1":  { "nodes": 50,   "clusters": 3,   "bs": 1, "area_x": 100,  "area_y": 100 },
+  "S2":  { "nodes": 100,  "clusters": 6,   "bs": 1, "area_x": 150,  "area_y": 150 },
+  "S3":  { "nodes": 200,  "clusters": 10,  "bs": 1, "area_x": 220,  "area_y": 220 },
+  "S4":  { "nodes": 400,  "clusters": 20,  "bs": 1, "area_x": 320,  "area_y": 320 },
+  "S5":  { "nodes": 800,  "clusters": 32,  "bs": 2, "area_x": 450,  "area_y": 450 },
+  "S6":  { "nodes": 1600, "clusters": 64,  "bs": 3, "area_x": 640,  "area_y": 640 },
+  "S7":  { "nodes": 3200, "clusters": 128, "bs": 4, "area_x": 920,  "area_y": 920 },
+  "S8":  { "nodes": 4000, "clusters": 160, "bs": 5, "area_x": 1020, "area_y": 1020 },
+  "S9":  { "nodes": 4500, "clusters": 180, "bs": 6, "area_x": 1080, "area_y": 1080 },
+  "S10": { "nodes": 5000, "clusters": 200, "bs": 6, "area_x": 1150, "area_y": 1150 }
+}

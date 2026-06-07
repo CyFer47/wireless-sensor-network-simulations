@@ -1,0 +1,32 @@
+{
+  "map_schema_version": "v3_map",
+  "map_id": "map_S9_M2_LONG_LINK_seed021",
+  "scale_id": "S9",
+  "seed": 21,
+  "map_profile": "M2_LONG_LINK",
+  "deterministic_signature_sha256": "145ec9468d837e428b10d23cfea19e52866db8e1c1701bea27c8744e97c805b2",
+  "area": {
+    "width_m": 1080,
+    "height_m": 1080
+  },
+  "counts": {
+    "node_count": 4500,
+    "ch_count": 180,
+    "bs_count": 6
+  },
+  "metrics": {
+    "mean_node_to_ch_distance": 92.368,
+    "max_node_to_ch_distance": 318.868,
+    "mean_ch_to_bs_distance": 184.181,
+    "max_ch_to_bs_distance": 360.344,
+    "cluster_size_mean": 25,
+    "cluster_size_max": 629,
+    "cluster_size_cv": 2.6734,
+    "long_link_ratio": 0.2927
+  },
+  "files": {
+    "nodes": "nodes.csv",
+    "ch_bs": "ch_bs.csv",
+    "node_cluster_map": "node_cluster_map.csv"
+  }
+}

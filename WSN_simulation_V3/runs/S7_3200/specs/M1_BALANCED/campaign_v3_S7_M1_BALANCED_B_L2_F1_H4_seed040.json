@@ -1,0 +1,43 @@
+{
+  "schema_version": "runspec_v3",
+  "run_spec_id": "campaign_v3_S7_M1_BALANCED_B_L2_F1_H4_seed040",
+  "description": "Campaign V3 S7 M1_BALANCED B L2 F1/H4 seed040",
+  "campaign": "campaign_v3",
+  "architecture": "B",
+  "runnable": true,
+  "variant": "V3",
+  "failure_family": "F1",
+  "healing_id": "H4",
+  "load": "L2",
+  "scale": "S7",
+  "seed": 40,
+  "map_profile": "M1_BALANCED",
+  "topology": {
+    "node_count": 3200,
+    "cluster_count": 128,
+    "bs": 4,
+    "area": [
+      920,
+      920
+    ]
+  },
+  "timing": {
+    "sim_time_s": 300.0,
+    "traffic_interval_s": 1.0,
+    "aggregation_interval_s": 30.0,
+    "dashboard_interval_s": 10.0,
+    "failure_time_s": 60.0,
+    "recovery_delay_s": 12.0
+  },
+  "failure_injection": {
+    "enabled": true
+  },
+  "recovery": {
+    "enabled": true,
+    "profile": "v3_energy_aware"
+  },
+  "execution": {
+    "sim_source": "ns3",
+    "enable_run_export": true
+  }
+}

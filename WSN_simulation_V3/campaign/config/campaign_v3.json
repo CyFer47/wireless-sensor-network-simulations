@@ -1,0 +1,33 @@
+{
+  "architectures": ["A", "B"],
+
+  "loads": [
+    "L1",
+    "L2"
+  ],
+
+  "failure_families": [
+    "F0",
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+
+  "healing_methods": [
+    "H0",
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+
+  "map_profiles": [
+    "M1_BALANCED",
+    "M2_LONG_LINK",
+    "M3_IMBALANCED"
+  ],
+
+  "seed_start": 1,
+  "seed_end": 50
+}
