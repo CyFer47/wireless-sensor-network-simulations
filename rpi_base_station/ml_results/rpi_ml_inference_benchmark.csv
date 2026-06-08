@@ -1,0 +1,4 @@
+avg_single_prediction_ms,batch_per_row_ms,batch_prediction_time_s,load_time_s,max_single_prediction_ms,min_single_prediction_ms,model,model_file_mb,prediction_preview_csv,ram_used_after_load_mb,ram_used_after_predict_mb,ram_used_before_load_mb,sample_rows,status
+13.959686,0.072161,0.014432,4.05261,17.786749,13.011313,Model_A,0.006,/home/cyfer/wsn_rpi_base_station/ml_results/model_a_prediction_preview.csv,371.566,373.305,326.93,200,ok
+100.546665,0.724755,0.144951,44.152897,122.845482,90.437299,Model_B,1739.624,/home/cyfer/wsn_rpi_base_station/ml_results/model_b_prediction_preview.csv,2008.77,2019.855,376.062,200,ok
+125.106152,0.742483,0.148497,4.977497,189.241899,100.678474,Model_C,204.668,/home/cyfer/wsn_rpi_base_station/ml_results/model_c_prediction_preview.csv,781.23,778.328,378.59,200,ok

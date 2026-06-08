@@ -1,0 +1,54 @@
+Raspberry Pi ML Inference Benchmark Summary
+==========================================
+
+{
+  "model": "Model_A",
+  "model_file_mb": 0.006,
+  "sample_rows": 200,
+  "load_time_s": 4.05261,
+  "avg_single_prediction_ms": 13.959686,
+  "min_single_prediction_ms": 13.011313,
+  "max_single_prediction_ms": 17.786749,
+  "batch_prediction_time_s": 0.014432,
+  "batch_per_row_ms": 0.072161,
+  "ram_used_before_load_mb": 326.93,
+  "ram_used_after_load_mb": 371.566,
+  "ram_used_after_predict_mb": 373.305,
+  "status": "ok",
+  "prediction_preview_csv": "/home/cyfer/wsn_rpi_base_station/ml_results/model_a_prediction_preview.csv"
+}
+
+{
+  "model": "Model_B",
+  "model_file_mb": 1739.624,
+  "sample_rows": 200,
+  "load_time_s": 44.152897,
+  "avg_single_prediction_ms": 100.546665,
+  "min_single_prediction_ms": 90.437299,
+  "max_single_prediction_ms": 122.845482,
+  "batch_prediction_time_s": 0.144951,
+  "batch_per_row_ms": 0.724755,
+  "ram_used_before_load_mb": 376.062,
+  "ram_used_after_load_mb": 2008.77,
+  "ram_used_after_predict_mb": 2019.855,
+  "status": "ok",
+  "prediction_preview_csv": "/home/cyfer/wsn_rpi_base_station/ml_results/model_b_prediction_preview.csv"
+}
+
+{
+  "model": "Model_C",
+  "model_file_mb": 204.668,
+  "sample_rows": 200,
+  "load_time_s": 4.977497,
+  "avg_single_prediction_ms": 125.106152,
+  "min_single_prediction_ms": 100.678474,
+  "max_single_prediction_ms": 189.241899,
+  "batch_prediction_time_s": 0.148497,
+  "batch_per_row_ms": 0.742483,
+  "ram_used_before_load_mb": 378.59,
+  "ram_used_after_load_mb": 781.23,
+  "ram_used_after_predict_mb": 778.328,
+  "status": "ok",
+  "prediction_preview_csv": "/home/cyfer/wsn_rpi_base_station/ml_results/model_c_prediction_preview.csv"
+}
+

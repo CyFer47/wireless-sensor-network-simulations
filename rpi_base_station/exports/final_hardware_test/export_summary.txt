@@ -1,0 +1,13 @@
+WSN Raspberry Pi Base Station CSV Export Summary
+================================================
+
+Export time: 2026-06-07T15:10:24.725978
+Database: /home/cyfer/wsn_rpi_base_station/data/wsn_base_station.db
+Output folder: /home/cyfer/wsn_rpi_base_station/exports/final_hardware_test
+Heartbeat timeout: 15s
+
+telemetry: 5734 rows
+events: 326 rows
+node_status: 10 rows
+commands: 0 rows
+status_snapshot: 10 rows

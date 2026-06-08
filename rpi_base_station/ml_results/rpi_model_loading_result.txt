@@ -1,0 +1,24 @@
+Raspberry Pi ML Model Loading Result
+====================================
+
+OS: Debian 13 trixie
+Device: Raspberry Pi 4 Model B, 4GB RAM
+scikit-learn version: 1.6.1
+
+Model A:
+Status: Loaded OK
+Load time: approximately 2.84 seconds
+
+Model C:
+Status: Loaded OK
+Load time: approximately 1.39 seconds
+
+Model B:
+File size: 1739.62 MB
+Status: Loaded OK
+Load time: 29.374 seconds
+RAM before loading: 329.0 MB used, 3467.7 MB available
+RAM after loading: 2056.5 MB used, 1740.2 MB available
+
+Conclusion:
+All selected ML models can be loaded on the Raspberry Pi 4. Model B is large but still loadable on the upgraded 64GB SD card system.

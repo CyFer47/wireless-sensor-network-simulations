@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WSN Raspberry Pi Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #e8eefc;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background: #111a33;
+      padding: 18px 24px;
+      border-bottom: 1px solid #26345f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .server-time {
+      color: #9db4ff;
+      font-size: 14px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #121a30;
+      border: 1px solid #26345f;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    .card-title {
+      font-size: 13px;
+      color: #9db4ff;
+      margin-bottom: 8px;
+    }
+
+    .card-value {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .green { color: #37d67a; }
+    .red { color: #ff5c7a; }
+    .yellow { color: #ffd166; }
+    .blue { color: #6ea8fe; }
+
+    section {
+      background: #121a30;
+      border: 1px solid #26345f;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    section h2 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 9px;
+      border-bottom: 1px solid #26345f;
+      text-align: left;
+    }
+
+    th {
+      color: #9db4ff;
+      background: #0f1730;
+    }
+
+    tr:hover {
+      background: #18223f;
+    }
+
+    .badge {
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .badge-online {
+      color: #37d67a;
+      border: 1px solid #37d67a;
+      background: rgba(55,214,122,0.12);
+    }
+
+    .badge-offline {
+      color: #ff5c7a;
+      border: 1px solid #ff5c7a;
+      background: rgba(255,92,122,0.12);
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-two {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer {
+      color: #6f7da8;
+      font-size: 12px;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>WSN Raspberry Pi Base Station Dashboard</h1>
+  <div class="server-time" id="serverTime">Loading...</div>
+</header>
+
+<div class="container">
+
+  <div class="cards">
+    <div class="card">
+      <div class="card-title">Total Nodes</div>
+      <div class="card-value blue" id="totalNodes">0</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Online Nodes</div>
+      <div class="card-value green" id="onlineNodes">0</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Offline Nodes</div>
+      <div class="card-value red" id="offlineNodes">0</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Heartbeat Timeout</div>
+      <div class="card-value yellow" id="heartbeatTimeout">0s</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Live Node Status</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Node ID</th>
+          <th>Status</th>
+          <th>Age</th>
+          <th>Seq</th>
+          <th>RSSI</th>
+          <th>Battery</th>
+          <th>Missed</th>
+          <th>Mode</th>
+          <th>IP</th>
+        </tr>
+      </thead>
+      <tbody id="nodeTable">
+        <tr><td colspan="9">Loading...</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="grid-two">
+    <section>
+      <h2>Latest Events</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Node</th>
+          </tr>
+        </thead>
+        <tbody id="eventsTable">
+          <tr><td colspan="3">Loading...</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Latest Telemetry</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Node</th>
+            <th>Seq</th>
+            <th>Temp</th>
+            <th>Hum</th>
+            <th>RSSI</th>
+            <th>Bat</th>
+          </tr>
+        </thead>
+        <tbody id="telemetryTable">
+          <tr><td colspan="7">Loading...</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+
+  <section>
+    <h2>Raspberry Pi ML Benchmark</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-title">Model A Single Prediction</div>
+        <div class="card-value green" id="modelALatency">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Model B Single Prediction</div>
+        <div class="card-value yellow" id="modelBLatency">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Model C Single Prediction</div>
+        <div class="card-value yellow" id="modelCLatency">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Model B Load Time</div>
+        <div class="card-value red" id="modelBLoad">-</div>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>File Size</th>
+          <th>Load Time</th>
+          <th>Single Prediction</th>
+          <th>Batch Per Row</th>
+          <th>RAM After Load</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="mlTable">
+        <tr><td colspan="7">Loading...</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+
+
+  <section>
+    <h2>ML-Assisted CH Recommendation</h2>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-title">Current CH Candidate</div>
+        <div class="card-value green" id="chCandidate">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">CH Score</div>
+        <div class="card-value blue" id="chScore">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Network Health</div>
+        <div class="card-value yellow" id="networkHealth">-</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Recommended Action</div>
+        <div class="card-value red" id="recommendedHealing">-</div>
+      </div>
+    </div>
+
+    <p id="decisionReason" style="color:#9db4ff; font-size:14px;">Loading decision...</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Node</th>
+          <th>Status</th>
+          <th>CH Score</th>
+          <th>Battery</th>
+          <th>RSSI</th>
+          <th>Reliability</th>
+          <th>Missed</th>
+        </tr>
+      </thead>
+      <tbody id="decisionTable">
+        <tr><td colspan="8">Loading...</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+
+</div>
+
+<div class="footer">
+  Auto refresh every 1 second | Raspberry Pi WSN Base Station
+</div>
+
+<script>
+function fmtTime(value) {
+  if (!value) return "-";
+  try {
+    return value.split("T")[1].split(".")[0];
+  } catch {
+    return value;
+  }
+}
+
+function fmt(value, digits=1) {
+  if (value === null || value === undefined) return "-";
+  return Number(value).toFixed(digits);
+}
+
+async function loadStatus() {
+  const res = await fetch("/api/status");
+  const data = await res.json();
+
+  document.getElementById("serverTime").textContent = "Server time: " + data.server_time;
+  document.getElementById("totalNodes").textContent = data.nodes.length;
+  document.getElementById("onlineNodes").textContent = data.online_count;
+  document.getElementById("offlineNodes").textContent = data.offline_count;
+  document.getElementById("heartbeatTimeout").textContent = data.heartbeat_timeout_s + "s";
+
+  const tbody = document.getElementById("nodeTable");
+  tbody.innerHTML = "";
+
+  if (data.nodes.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="9">No nodes received yet</td></tr>';
+    return;
+  }
+
+  data.nodes.forEach(n => {
+    const badge = n.status === "ONLINE" ? "badge-online" : "badge-offline";
+
+    tbody.innerHTML += `
+      <tr>
+        <td>${n.node_id}</td>
+        <td><span class="badge ${badge}">${n.status}</span></td>
+        <td>${fmt(n.age_s, 1)}s</td>
+        <td>${n.last_seq ?? "-"}</td>
+        <td>${n.rssi_dbm ?? "-"}</td>
+        <td>${n.battery_v === null ? "-" : fmt(n.battery_v, 2) + "V"}</td>
+        <td>${n.missed_packets ?? 0}</td>
+        <td>${n.mode ?? "-"}</td>
+        <td>${n.wifi_ip ?? "-"}</td>
+      </tr>
+    `;
+  });
+}
+
+async function loadEvents() {
+  const res = await fetch("/api/events?limit=8");
+  const data = await res.json();
+
+  const tbody = document.getElementById("eventsTable");
+  tbody.innerHTML = "";
+
+  if (data.events.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="3">No events</td></tr>';
+    return;
+  }
+
+  data.events.forEach(e => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${fmtTime(e.event_time)}</td>
+        <td>${e.event_type}</td>
+        <td>${e.node_id ?? "-"}</td>
+      </tr>
+    `;
+  });
+}
+
+async function loadTelemetry() {
+  const res = await fetch("/api/latest?limit=8");
+  const data = await res.json();
+
+  const tbody = document.getElementById("telemetryTable");
+  tbody.innerHTML = "";
+
+  if (data.records.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7">No telemetry</td></tr>';
+    return;
+  }
+
+  data.records.forEach(r => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${fmtTime(r.server_time)}</td>
+        <td>${r.node_id}</td>
+        <td>${r.seq ?? "-"}</td>
+        <td>${r.temp_c === null ? "-" : fmt(r.temp_c, 1)}</td>
+        <td>${r.humidity === null ? "-" : fmt(r.humidity, 1)}</td>
+        <td>${r.rssi_dbm ?? "-"}</td>
+        <td>${r.battery_v === null ? "-" : fmt(r.battery_v, 2) + "V"}</td>
+      </tr>
+    `;
+  });
+}
+
+
+async function loadMLBenchmark() {
+  const res = await fetch("/api/ml/benchmark");
+  const data = await res.json();
+
+  if (data.status !== "ok") {
+    document.getElementById("mlTable").innerHTML =
+      '<tr><td colspan="7">ML benchmark not available</td></tr>';
+    return;
+  }
+
+  const tbody = document.getElementById("mlTable");
+  tbody.innerHTML = "";
+
+  data.models.forEach(m => {
+    if (m.model === "Model_A") {
+      document.getElementById("modelALatency").textContent =
+        Number(m.avg_single_prediction_ms).toFixed(2) + " ms";
+    }
+
+    if (m.model === "Model_B") {
+      document.getElementById("modelBLatency").textContent =
+        Number(m.avg_single_prediction_ms).toFixed(2) + " ms";
+      document.getElementById("modelBLoad").textContent =
+        Number(m.load_time_s).toFixed(2) + " s";
+    }
+
+    if (m.model === "Model_C") {
+      document.getElementById("modelCLatency").textContent =
+        Number(m.avg_single_prediction_ms).toFixed(2) + " ms";
+    }
+
+    tbody.innerHTML += `
+      <tr>
+        <td>${m.model}</td>
+        <td>${Number(m.model_file_mb).toFixed(2)} MB</td>
+        <td>${Number(m.load_time_s).toFixed(2)} s</td>
+        <td>${Number(m.avg_single_prediction_ms).toFixed(2)} ms</td>
+        <td>${Number(m.batch_per_row_ms).toFixed(3)} ms</td>
+        <td>${Number(m.ram_used_after_load_mb).toFixed(1)} MB</td>
+        <td>${m.status}</td>
+      </tr>
+    `;
+  });
+}
+
+
+
+async function loadMLDecision() {
+  const res = await fetch("/api/ml/decision");
+  const data = await res.json();
+
+  if (data.status !== "ok") {
+    document.getElementById("decisionTable").innerHTML =
+      '<tr><td colspan="8">Decision data not available</td></tr>';
+    return;
+  }
+
+  document.getElementById("chCandidate").textContent = data.ch_candidate ?? "-";
+  document.getElementById("chScore").textContent =
+    data.ch_score === undefined ? "-" : (Number(data.ch_score) * 100).toFixed(1) + "%";
+  document.getElementById("networkHealth").textContent = data.network_health ?? "-";
+  document.getElementById("recommendedHealing").textContent = data.recommended_healing ?? "-";
+  document.getElementById("decisionReason").textContent = data.reason ?? "";
+
+  const tbody = document.getElementById("decisionTable");
+  tbody.innerHTML = "";
+
+  data.nodes.slice(0, 10).forEach((n, idx) => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${idx + 1}</td>
+        <td>${n.node_id}</td>
+        <td>${n.status}</td>
+        <td>${(Number(n.ch_score) * 100).toFixed(1)}%</td>
+        <td>${n.battery_v === null ? "-" : Number(n.battery_v).toFixed(2) + "V"}</td>
+        <td>${n.rssi_dbm ?? "-"}</td>
+        <td>${(Number(n.reliability_score) * 100).toFixed(1)}%</td>
+        <td>${n.missed_packets ?? 0}</td>
+      </tr>
+    `;
+  });
+}
+
+
+async function refreshAll() {
+  try {
+    await loadStatus();
+    await loadEvents();
+    await loadTelemetry();
+        await loadMLBenchmark();
+        await loadMLDecision();
+  } catch (err) {
+    document.getElementById("serverTime").textContent = "Connection error";
+    console.error(err);
+  }
+}
+
+refreshAll();
+setInterval(refreshAll, 1000);
+</script>
+</body>
+</html>
